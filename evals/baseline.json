@@ -1,0 +1,5 @@
+{
+  "task_success_rate": 0.4,
+  "cost_per_run_usd": 0.0,
+  "source": "dev fixture baseline; regenerate with make eval after intentional scoring changes"
+}

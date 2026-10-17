@@ -1,0 +1,734 @@
+aliases:
+  a b testing: a-b-testing
+  aa: apache-airflow
+  abt: a-b-testing
+  abtesting: a-b-testing
+  ac: asp-net-core
+  accessibility: accessibility
+  accessibility engineering: accessibility-engineering
+  accessibilityengineering: accessibility-engineering
+  ad: api-design
+  ae: accessibility-engineering
+  af: azure-functions
+  agile: agile
+  ai agents: ai-agents
+  aiagents: ai-agents
+  ak: apache-kafka
+  alerting: alerting
+  algorithms: algorithms
+  algos: data-structures-and-algorithms
+  amazon cloud: amazon-web-services
+  amazon web services: amazon-web-services
+  amazon web services cloud: amazon-web-services
+  amazonwebservices: amazon-web-services
+  android development: android-development
+  androiddevelopment: android-development
+  angular: angular
+  ansible: ansible
+  apache airflow: apache-airflow
+  apache kafka: apache-kafka
+  apache spark: apache-spark
+  apacheairflow: apache-airflow
+  apachekafka: apache-kafka
+  apachespark: apache-spark
+  api: api
+  api design: api-design
+  api documentation: api-documentation
+  apidesign: api-design
+  apidocumentation: api-documentation
+  application security: application-security
+  applicationsecurity: application-security
+  arduino: arduino
+  as: apache-spark
+  asp.net core: asp-net-core
+  asp.netcore: asp-net-core
+  assembly: assembly
+  astro: astro
+  authentication: authentication
+  authorization: authorization
+  aws: amazon-web-services
+  azure: microsoft-azure
+  azure functions: azure-functions
+  azurefunctions: azure-functions
+  ba: browser-apis
+  background jobs: background-jobs
+  backgroundjobs: background-jobs
+  backward compatibility: backward-compatibility
+  backwardcompatibility: backward-compatibility
+  bash: bash
+  bayesian statistics: bayesian-statistics
+  bayesianstatistics: bayesian-statistics
+  bc: backward-compatibility
+  bd: behavior-driven-development
+  behavior-driven development: behavior-driven-development
+  behavior-drivendevelopment: behavior-driven-development
+  bi: business-intelligence
+  bj: background-jobs
+  ble: bluetooth-low-energy
+  bluetooth low energy: bluetooth-low-energy
+  bluetoothlowenergy: bluetooth-low-energy
+  browser apis: browser-apis
+  browserapis: browser-apis
+  bs: bayesian-statistics
+  build integration: continuous-integration
+  business intelligence: business-intelligence
+  businessintelligence: business-intelligence
+  c: c
+  c sharp: c
+  c#: c
+  c++: c
+  ca: computer-architecture
+  caching: caching
+  calculus: calculus
+  capacity planning: capacity-planning
+  capacityplanning: capacity-planning
+  cassandra: cassandra
+  causal inference: causal-inference
+  causalinference: causal-inference
+  cc: clean-code
+  cd: continuous-delivery
+  ce: chaos-engineering
+  cg: css-grid
+  chaos engineering: chaos-engineering
+  chaosengineering: chaos-engineering
+  ci: continuous-integration
+  clean code: clean-code
+  cleancode: clean-code
+  cloud networking: cloud-networking
+  cloudnetworking: cloud-networking
+  cn: computer-networks
+  cnn: convolutional-neural-networks
+  cobol: cobol
+  code review: code-review
+  codereview: code-review
+  collaboration: collaboration
+  combinatorics: combinatorics
+  compilers: compilers
+  complexity analysis: complexity-analysis
+  complexityanalysis: complexity-analysis
+  computational linguistics: natural-language-processing
+  computer architecture: computer-architecture
+  computer networks: computer-networks
+  computer vision: computer-vision
+  computerarchitecture: computer-architecture
+  computernetworks: computer-networks
+  computervision: computer-vision
+  concurrency: concurrency
+  container security: container-security
+  containersecurity: container-security
+  continuous delivery: continuous-delivery
+  continuous deployment: continuous-delivery
+  continuous integration: continuous-integration
+  continuousdelivery: continuous-delivery
+  continuousintegration: continuous-integration
+  contract: contract
+  convolutional neural networks: convolutional-neural-networks
+  convolutionalneuralnetworks: convolutional-neural-networks
+  cp: capacity-planning
+  cplusplus: c
+  cpp: c
+  cr: code-review
+  cryptography: cryptography
+  cs: container-security
+  cs201 data structures: data-structures
+  css: css
+  css grid: css-grid
+  cssgrid: css-grid
+  cv: computer-vision
+  cypress: cypress
+  da: dynamic-analysis
+  dart: dart
+  dast: dast
+  data: data
+  data cleaning: data-cleaning
+  data governance: data-governance
+  data lakes: data-lakes
+  data modeling: data-modeling
+  data protection: data-protection
+  data quality: data-quality
+  data storytelling: data-storytelling
+  data structure: data-structures
+  data structures: data-structures
+  data structures & algorithms: data-structures-and-algorithms
+  data structures and algorithms: data-structures-and-algorithms
+  data visualization: data-visualization
+  data warehousing: data-warehousing
+  database design: database-design
+  database indexing: database-indexing
+  databasedesign: database-design
+  databaseindexing: database-indexing
+  datacleaning: data-cleaning
+  datagovernance: data-governance
+  datalakes: data-lakes
+  datamodeling: data-modeling
+  dataprotection: data-protection
+  dataquality: data-quality
+  datastorytelling: data-storytelling
+  datastructures: data-structures
+  datastructuresandalgorithms: data-structures-and-algorithms
+  datavisualization: data-visualization
+  datawarehousing: data-warehousing
+  dbt: dbt
+  dc: data-cleaning
+  dd: domain-driven-design
+  debugging: debugging
+  deep learning: deep-learning
+  deeplearning: deep-learning
+  design patterns: design-patterns
+  designpatterns: design-patterns
+  df: digital-forensics
+  dg: data-governance
+  di: database-indexing
+  diffusion models: diffusion-models
+  diffusionmodels: diffusion-models
+  digital forensics: digital-forensics
+  digitalforensics: digital-forensics
+  discrete mathematics: discrete-mathematics
+  discretemathematics: discrete-mathematics
+  distributed systems: distributed-systems
+  distributedsystems: distributed-systems
+  django: django
+  dl: data-lakes
+  dm: discrete-mathematics
+  docker: docker
+  document parsing: document-parsing
+  documentparsing: document-parsing
+  dom: dom
+  domain-driven design: domain-driven-design
+  domain-drivendesign: domain-driven-design
+  dotnet c sharp: c
+  dp: design-patterns
+  dq: data-quality
+  ds: data-structures
+  dsa: data-structures-and-algorithms
+  dsaa: data-structures-and-algorithms
+  dv: data-visualization
+  dw: data-warehousing
+  dynamic analysis: dynamic-analysis
+  dynamicanalysis: dynamic-analysis
+  dynamodb: dynamodb
+  ea: event-driven-architecture
+  ec: edge-computing
+  ecmascript: javascript
+  ed: experimental-design
+  eda: exploratory-data-analysis
+  edge computing: edge-computing
+  edgecomputing: edge-computing
+  eit: ethics-in-technology
+  elasticsearch: elasticsearch
+  elixir: elixir
+  elt: elt
+  embedded systems: embedded-systems
+  embeddedsystems: embedded-systems
+  embeddings: embeddings
+  end-to-end testing: end-to-end-testing
+  end-to-endtesting: end-to-end-testing
+  es: embedded-systems
+  eslint: eslint
+  estimation: estimation
+  et: end-to-end-testing
+  ethics in technology: ethics-in-technology
+  ethicsintechnology: ethics-in-technology
+  etl: etl
+  evaluation: evaluation
+  event-driven architecture: event-driven-architecture
+  event-drivenarchitecture: event-driven-architecture
+  experimental design: experimental-design
+  experimentaldesign: experimental-design
+  exploratory data analysis: exploratory-data-analysis
+  exploratorydataanalysis: exploratory-data-analysis
+  express: express
+  f#: f
+  face: face
+  fastapi: fastapi
+  fc: firewall-configuration
+  fd: firmware-development
+  fe: feature-engineering
+  feature engineering: feature-engineering
+  feature flags: feature-flags
+  featureengineering: feature-engineering
+  featureflags: feature-flags
+  ff: feature-flags
+  file systems: file-systems
+  filesystems: file-systems
+  fine-tuning: fine-tuning
+  firewall configuration: firewall-configuration
+  firewallconfiguration: firewall-configuration
+  firmware development: firmware-development
+  firmwaredevelopment: firmware-development
+  flask: flask
+  flexbox: flexbox
+  flutter: flutter
+  forecasting: forecasting
+  fortran: fortran
+  foundation models: large-language-models
+  fp: functional-programming
+  fs: file-systems
+  functional programming: functional-programming
+  functionalprogramming: functional-programming
+  ga: github-actions
+  gc: gitlab-ci
+  gcp: google-cloud-platform
+  gcr: google-cloud-run
+  git: git
+  github: github
+  github actions: github-actions
+  githubactions: github-actions
+  gitlab: gitlab
+  gitlab ci: gitlab-ci
+  gitlabci: gitlab-ci
+  gnn: graph-neural-networks
+  go: go
+  google cloud: google-cloud-platform
+  google cloud platform: google-cloud-platform
+  google cloud run: google-cloud-run
+  googlecloudplatform: google-cloud-platform
+  googlecloudrun: google-cloud-run
+  grafana: grafana
+  graph: graph
+  graph neural networks: graph-neural-networks
+  graphneuralnetworks: graph-neural-networks
+  graphql: graphql
+  groovy: groovy
+  grpc: grpc
+  guardrails: guardrails
+  haskell: haskell
+  helm: helm
+  hi: human-computer-interaction
+  ht: hypothesis-testing
+  html: html
+  hugging: hugging
+  human-computer interaction: human-computer-interaction
+  human-computerinteraction: human-computer-interaction
+  hyperparameter tuning: hyperparameter-tuning
+  hyperparametertuning: hyperparameter-tuning
+  hypothesis testing: hypothesis-testing
+  hypothesistesting: hypothesis-testing
+  iaam: identity-and-access-management
+  iac: infrastructure-as-code
+  id: ios-development
+  identity and access management: identity-and-access-management
+  identityandaccessmanagement: identity-and-access-management
+  image understanding: computer-vision
+  incident response: incident-response
+  incidentresponse: incident-response
+  information retrieval: information-retrieval
+  information theory: information-theory
+  informationretrieval: information-retrieval
+  informationtheory: information-theory
+  infrastructure as code: infrastructure-as-code
+  infrastructureascode: infrastructure-as-code
+  input validation: input-validation
+  inputvalidation: input-validation
+  integration testing: integration-testing
+  integrationtesting: integration-testing
+  internet of things: internet-of-things
+  internetofthings: internet-of-things
+  ios development: ios-development
+  iosdevelopment: ios-development
+  iot: internet-of-things
+  ir: information-retrieval
+  it: information-theory
+  iv: input-validation
+  jaeger: jaeger
+  java: java
+  javascript: javascript
+  jc: jetpack-compose
+  jenkins: jenkins
+  jest: jest
+  jetpack compose: jetpack-compose
+  jetpackcompose: jetpack-compose
+  jn: jupyter-notebooks
+  js: javascript
+  julia: julia
+  jupyter notebooks: jupyter-notebooks
+  jupyternotebooks: jupyter-notebooks
+  kanban: kanban
+  kotlin: kotlin
+  kubernetes: kubernetes
+  la: linear-algebra
+  labeling: labeling
+  lambda: lambda
+  langchain: langchain
+  langgraph: langgraph
+  language: language
+  language processing: natural-language-processing
+  languages: languages
+  lap: logic-and-proofs
+  laravel: laravel
+  large language models: large-language-models
+  largelanguagemodels: large-language-models
+  learning: learning
+  lightgbm: lightgbm
+  limiting: limiting
+  linear algebra: linear-algebra
+  linearalgebra: linear-algebra
+  linux: linux
+  litellm: litellm
+  llm: large-language-models
+  llms: large-language-models
+  load: load
+  logging: logging
+  logic and proofs: logic-and-proofs
+  logicandproofs: logic-and-proofs
+  looker: looker
+  lora: lora
+  lua: lua
+  ma: monolith-architecture
+  machine learning: machine-learning
+  machinelearning: machine-learning
+  malware analysis: malware-analysis
+  malwareanalysis: malware-analysis
+  mas: mobile-app-security
+  matlab: matlab
+  matplotlib: matplotlib
+  me: model-evaluation
+  memory management: memory-management
+  memorymanagement: memory-management
+  mentoring: mentoring
+  message queues: message-queues
+  messagequeues: message-queues
+  microcontrollers: microcontrollers
+  microservices: microservices
+  microsoft azure: microsoft-azure
+  microsoft sql server: microsoft-sql-server
+  microsoftazure: microsoft-azure
+  microsoftsqlserver: microsoft-sql-server
+  ml: machine-learning
+  mlflow: mlflow
+  mlops: mlops
+  mm: memory-management
+  mobile app security: mobile-app-security
+  mobile ux: mobile-ux
+  mobileappsecurity: mobile-app-security
+  mobileux: mobile-ux
+  model evaluation: model-evaluation
+  model selection: model-selection
+  model serving: model-serving
+  modelevaluation: model-evaluation
+  models: models
+  modelselection: model-selection
+  modelserving: model-serving
+  mongodb: mongodb
+  monitoring: monitoring
+  monolith architecture: monolith-architecture
+  monolitharchitecture: monolith-architecture
+  mq: message-queues
+  ms: model-selection
+  ms azure: microsoft-azure
+  mss: microsoft-sql-server
+  mt: mutation-testing
+  mu: mobile-ux
+  multimodal ai: multimodal-ai
+  multimodalai: multimodal-ai
+  mutation testing: mutation-testing
+  mutationtesting: mutation-testing
+  mypy: mypy
+  mysql: mysql
+  natural language processing: natural-language-processing
+  naturallanguageprocessing: natural-language-processing
+  neo4j: neo4j
+  nestjs: nestjs
+  network security: network-security
+  networksecurity: network-security
+  neural networks: neural-networks
+  neuralnetworks: neural-networks
+  next.js: next-js
+  nginx: nginx
+  nlp: natural-language-processing
+  nn: neural-networks
+  node.js: node-js
+  ns: network-security
+  numpy: numpy
+  oauth: oauth
+  object oriented programming: object-oriented-programming
+  object-oriented programming: object-oriented-programming
+  object-orientedprogramming: object-oriented-programming
+  objective-c: objective-c
+  observability: observability
+  oc: openid-connect
+  ocr: ocr
+  od: oracle-database
+  of: of
+  oop: object-oriented-programming
+  op: object-oriented-programming
+  openapi: openapi
+  openid connect: openid-connect
+  openidconnect: openid-connect
+  opentelemetry: opentelemetry
+  operating: operating
+  oracle database: oracle-database
+  oracledatabase: oracle-database
+  ot1: owasp-top-10
+  owasp top 10: owasp-top-10
+  owasptop10: owasp-top-10
+  pa: product-analytics
+  pandas: pandas
+  parallel computing: parallel-computing
+  parallelcomputing: parallel-computing
+  pb: power-bi
+  pc: parallel-computing
+  pe: performance-engineering
+  penetration testing: penetration-testing
+  penetrationtesting: penetration-testing
+  performance engineering: performance-engineering
+  performanceengineering: performance-engineering
+  perl: perl
+  php: php
+  pi: pi
+  pki: public-key-infrastructure
+  playwright: playwright
+  plotly: plotly
+  pm: project-management
+  postgres: postgresql
+  postgresql: postgresql
+  power bi: power-bi
+  powerbi: power-bi
+  powershell: powershell
+  pp: programming-paradigms
+  presentation skills: presentation-skills
+  presentationskills: presentation-skills
+  prettier: prettier
+  prioritization: prioritization
+  privacy engineering: privacy-engineering
+  privacyengineering: privacy-engineering
+  probability: probability
+  problem solving: problem-solving
+  problemsolving: problem-solving
+  product analytics: product-analytics
+  product thinking: product-thinking
+  productanalytics: product-analytics
+  productthinking: product-thinking
+  profiling: profiling
+  programming: programming
+  programming paradigms: programming-paradigms
+  programmingparadigms: programming-paradigms
+  progressive web apps: progressive-web-apps
+  progressivewebapps: progressive-web-apps
+  project management: project-management
+  projectmanagement: project-management
+  prometheus: prometheus
+  prompt engineering: prompt-engineering
+  promptengineering: prompt-engineering
+  property-based testing: property-based-testing
+  property-basedtesting: property-based-testing
+  ps: problem-solving
+  psql: postgresql
+  pt: penetration-testing
+  public key infrastructure: public-key-infrastructure
+  publickeyinfrastructure: public-key-infrastructure
+  pulumi: pulumi
+  pwa: progressive-web-apps
+  pytest: pytest
+  python: python
+  pytorch: pytorch
+  qo: query-optimization
+  quantization: quantization
+  query: query
+  query optimization: query-optimization
+  queryoptimization: query-optimization
+  r: r
+  ra: rest-apis
+  rag: retrieval-augmented-generation
+  raspberry: raspberry
+  rate: rate
+  rd: responsive-design
+  re: requirements-engineering
+  react: react
+  react native: react-native
+  reactnative: react-native
+  real-time systems: real-time-systems
+  real-timesystems: real-time-systems
+  recommendation systems: recommendation-systems
+  recommendationsystems: recommendation-systems
+  recurrent neural networks: recurrent-neural-networks
+  recurrentneuralnetworks: recurrent-neural-networks
+  redis: redis
+  redux: redux
+  refactoring: refactoring
+  regression analysis: regression-analysis
+  regressionanalysis: regression-analysis
+  reinforcement learning: reinforcement-learning
+  reinforcementlearning: reinforcement-learning
+  reliability engineering: reliability-engineering
+  reliabilityengineering: reliability-engineering
+  remix: remix
+  requirements engineering: requirements-engineering
+  requirementsengineering: requirements-engineering
+  responsible ai: responsible-ai
+  responsibleai: responsible-ai
+  responsive design: responsive-design
+  responsivedesign: responsive-design
+  rest: rest-apis
+  rest apis: rest-apis
+  restapis: rest-apis
+  restful apis: rest-apis
+  retrieval augmented generation: retrieval-augmented-generation
+  retrieval-augmented generation: retrieval-augmented-generation
+  retrieval-augmentedgeneration: retrieval-augmented-generation
+  rg: retrieval-augmented-generation
+  rl: reinforcement-learning
+  rn: react-native
+  rnn: recurrent-neural-networks
+  robotics: robotics
+  ror: ruby-on-rails
+  rs: recommendation-systems
+  ruby: ruby
+  ruby on rails: ruby-on-rails
+  rubyonrails: ruby-on-rails
+  ruff: ruff
+  rust: rust
+  sa: security-auditing
+  sass: sass
+  sast: sast
+  sb: spring-boot
+  sc: serverless-computing
+  scala: scala
+  scikit-learn: scikit-learn
+  scrum: scrum
+  sd: software-design
+  se: server-sent-events
+  seaborn: seaborn
+  search ranking: search-ranking
+  searchranking: search-ranking
+  secrets management: secrets-management
+  secrets scanning: secrets-scanning
+  secretsmanagement: secrets-management
+  secretsscanning: secrets-scanning
+  secure coding: secure-coding
+  securecoding: secure-coding
+  security: security
+  security auditing: security-auditing
+  security operations: security-operations
+  securityauditing: security-auditing
+  securityoperations: security-operations
+  selenium: selenium
+  semantic search: semantic-search
+  semanticsearch: semantic-search
+  server-sent events: server-sent-events
+  server-sentevents: server-sent-events
+  serverless computing: serverless-computing
+  serverlesscomputing: serverless-computing
+  site reliability engineering: site-reliability-engineering
+  sitereliabilityengineering: site-reliability-engineering
+  sl: supervised-learning
+  sm: state-management
+  so: security-operations
+  software design: software-design
+  software supply chain security: software-supply-chain-security
+  softwaredesign: software-design
+  softwaresupplychainsecurity: software-supply-chain-security
+  solidity: solidity
+  sp: stream-processing
+  speech recognition: speech-recognition
+  speechrecognition: speech-recognition
+  spring boot: spring-boot
+  springboot: spring-boot
+  sql: sql
+  sqlite: sqlite
+  sr: search-ranking
+  sre: site-reliability-engineering
+  ss: semantic-search
+  sscs: software-supply-chain-security
+  stakeholder communication: stakeholder-communication
+  stakeholdercommunication: stakeholder-communication
+  state management: state-management
+  statemanagement: state-management
+  static analysis: static-analysis
+  static type checking: static-type-checking
+  staticanalysis: static-analysis
+  statictypechecking: static-type-checking
+  statistical learning: machine-learning
+  statistics: statistics
+  stc: static-type-checking
+  storybook: storybook
+  stream processing: stream-processing
+  streamprocessing: stream-processing
+  supervised learning: supervised-learning
+  supervisedlearning: supervised-learning
+  svelte: svelte
+  swift: swift
+  swiftui: swiftui
+  system design: system-design
+  systemdesign: system-design
+  systems: systems
+  ta: test-automation
+  tableau: tableau
+  tailwind: tailwind
+  tanstack: tanstack
+  tc: tool-calling
+  td: test-driven-development
+  technical leadership: technical-leadership
+  technical writing: technical-writing
+  technicalleadership: technical-leadership
+  technicalwriting: technical-writing
+  tensorflow: tensorflow
+  terraform: terraform
+  test automation: test-automation
+  test-driven development: test-driven-development
+  test-drivendevelopment: test-driven-development
+  testautomation: test-automation
+  testing: testing
+  text-to-speech: text-to-speech
+  theory: theory
+  theory of computation: theory-of-computation
+  theoryofcomputation: theory-of-computation
+  threat modeling: threat-modeling
+  threatmodeling: threat-modeling
+  time series analysis: time-series-analysis
+  timeseriesanalysis: time-series-analysis
+  tl: technical-leadership
+  tls: tls
+  tm: threat-modeling
+  toc: theory-of-computation
+  tool calling: tool-calling
+  toolcalling: tool-calling
+  transactions: transactions
+  transfer: transfer
+  transformers: transformers
+  ts: typescript
+  tsa: time-series-analysis
+  tw: technical-writing
+  typescript: typescript
+  ul: unsupervised-learning
+  unit testing: unit-testing
+  unittesting: unit-testing
+  unsupervised learning: unsupervised-learning
+  unsupervisedlearning: unsupervised-learning
+  ur: user-research
+  user research: user-research
+  userresearch: user-research
+  ut: unit-testing
+  ux research: ux-research
+  uxresearch: ux-research
+  vc: version-control
+  vd: vector-databases
+  vector databases: vector-databases
+  vectordatabases: vector-databases
+  version control: version-control
+  versioncontrol: version-control
+  vite: vite
+  vitest: vitest
+  vm: vulnerability-management
+  vue: vue
+  vulnerability management: vulnerability-management
+  vulnerabilitymanagement: vulnerability-management
+  wc: web-components
+  web components: web-components
+  web performance: web-performance
+  web security: web-security
+  webassembly: webassembly
+  webcomponents: web-components
+  webpack: webpack
+  webperformance: web-performance
+  websecurity: web-security
+  websockets: websockets
+  wp: web-performance
+  written communication: written-communication
+  writtencommunication: written-communication
+  ws: web-security
+  xgboost: xgboost
+  zero trust: zero-trust
+  zerotrust: zero-trust
+  zt: zero-trust
+  zustand: zustand

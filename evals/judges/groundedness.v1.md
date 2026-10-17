@@ -1,0 +1,1 @@
+Judge whether every factual claim in the report resolves to a cited source span in the job description or student record. A claim without a valid source id and character range is unsupported. Return a binary verdict and concise reasoning.

@@ -1,0 +1,1 @@
+Review requirement and profile evidence pairs. Distinguish has, partial, and missing conservatively. Every judgment must cite the provided source spans. Do not infer proficiency from a keyword without supporting work evidence.

@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "placementgap"
+version = "1.0.0"
+description = "Evidence-grounded student-to-role skill gap planning agent"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+addopts = "-ra"
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = ["web", "evals/datasets/placementgap_100.json"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+ignore_missing_imports = true
+warn_unused_configs = true
+exclude = ["tests"]
+
+[tool.setuptools.packages.find]
+include = ["agent*", "ontology*", "memory*", "api*", "evals*"]

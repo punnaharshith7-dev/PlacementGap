@@ -1,0 +1,18 @@
+defaults:
+  cheap: openai/gpt-4.1-mini
+  strong: openai/gpt-4.1
+nodes:
+  jd_extract: cheap
+  profile_parse: cheap
+  profile_normalize: cheap
+  gap_analysis: strong
+  critic: strong
+  report: strong
+  canonicalize: cheap
+prices_per_million_tokens:
+  openai/gpt-4.1-mini:
+    input: 0.40
+    output: 1.60
+  openai/gpt-4.1:
+    input: 2.00
+    output: 8.00

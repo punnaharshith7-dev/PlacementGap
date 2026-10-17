@@ -1,0 +1,1 @@
+Judge whether each learning resource is relevant to the mapped skill, appropriate for the learner's starting and target levels, affordable, and likely to remain available. Return a relevance rating from 1 to 5 with concise reasoning.

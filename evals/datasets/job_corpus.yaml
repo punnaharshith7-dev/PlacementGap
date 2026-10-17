@@ -1,0 +1,43 @@
+jobs:
+- role: Software Engineer
+  company: Northstar Labs
+  location: Remote
+  text: We seek a Software Engineer with Python, Data Structures and Algorithms, Git,
+    REST APIs, PostgreSQL, Unit Testing, Docker, and clear technical communication.
+    Experience building reliable services is required. React is preferred.
+- role: Backend Engineer
+  company: Harbor Systems
+  location: Bengaluru
+  text: 'Backend Engineer requirements: Python, FastAPI, REST APIs, PostgreSQL, Database
+    Design, Docker, GitHub Actions, Authentication, and Integration Testing. Kubernetes
+    and Terraform are preferred.'
+- role: Frontend Developer
+  company: Paperplane
+  location: Remote
+  text: 'Frontend Developer: JavaScript, TypeScript, React, CSS Grid, Responsive Design,
+    Accessibility, Web Performance, Git, and End-to-End Testing. Next.js is preferred;
+    candidates should build accessible browser experiences.'
+- role: Data Scientist
+  company: Cedar Analytics
+  location: Hyderabad
+  text: 'Data Scientist: Python, Statistics, Probability, Pandas, NumPy, Exploratory
+    Data Analysis, Data Visualization, Regression Analysis, Machine Learning, and
+    Model Evaluation. A/B Testing is preferred.'
+- role: Machine Learning Engineer
+  company: Orbit Research
+  location: Remote
+  text: 'Machine Learning Engineer: Python, Linear Algebra, Statistics, Machine Learning,
+    Deep Learning, PyTorch, Feature Engineering, Model Evaluation, Docker, and Model
+    Serving. Large Language Models and MLOps are preferred.'
+- role: DevOps Engineer
+  company: Blue Forge
+  location: Pune
+  text: 'DevOps Engineer: Linux, Docker, Kubernetes, Terraform, Continuous Integration,
+    Continuous Delivery, Prometheus, Grafana, Cloud Networking, and Infrastructure
+    as Code. Amazon Web Services experience is preferred.'
+- role: Application Security Engineer
+  company: Keyline Security
+  location: Remote
+  text: 'Application Security Engineer: Python, Secure Coding, Threat Modeling, OWASP
+    Top 10, Vulnerability Management, Penetration Testing, Git, and Software Supply
+    Chain Security. Static Analysis and Incident Response are preferred.'

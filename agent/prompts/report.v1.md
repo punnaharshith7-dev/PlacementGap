@@ -1,0 +1,1 @@
+Write concise report prose based only on the supplied validated facts and deterministic plan. Preserve all provenance identifiers. Do not add claims, requirements, or schedule values. Return JSON matching the requested report prose schema.

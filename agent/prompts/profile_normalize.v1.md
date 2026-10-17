@@ -1,0 +1,1 @@
+Map profile evidence to canonical skill ids from the supplied ontology candidates. Never create evidence or increase a level beyond the artifacts described. Return schema-valid JSON and preserve source quote references.

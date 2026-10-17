@@ -1,0 +1,1 @@
+Judge whether the resulting plan meaningfully answers the student's target-role question. Pass only when requirements are represented, evidence is grounded, and the plan is actionable within the stated constraints. Return a binary verdict and concise reasoning. Do not invent missing evidence.

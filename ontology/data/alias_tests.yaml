@@ -1,0 +1,257 @@
+cases:
+- text: DSA
+  expected_skill_id: data-structures-and-algorithms
+- text: Data Structures & Algorithms
+  expected_skill_id: data-structures-and-algorithms
+- text: CS201 Data Structures
+  expected_skill_id: data-structures
+- text: algos
+  expected_skill_id: data-structures-and-algorithms
+- text: Python
+  expected_skill_id: python
+- text: Java
+  expected_skill_id: java
+- text: JavaScript
+  expected_skill_id: javascript
+- text: TypeScript
+  expected_skill_id: typescript
+- text: C
+  expected_skill_id: c
+- text: Go
+  expected_skill_id: go
+- text: Rust
+  expected_skill_id: rust
+- text: Kotlin
+  expected_skill_id: kotlin
+- text: Swift
+  expected_skill_id: swift
+- text: PHP
+  expected_skill_id: php
+- text: Ruby
+  expected_skill_id: ruby
+- text: Scala
+  expected_skill_id: scala
+- text: R
+  expected_skill_id: r
+- text: MATLAB
+  expected_skill_id: matlab
+- text: Bash
+  expected_skill_id: bash
+- text: PowerShell
+  expected_skill_id: powershell
+- text: SQL
+  expected_skill_id: sql
+- text: HTML
+  expected_skill_id: html
+- text: CSS
+  expected_skill_id: css
+- text: Solidity
+  expected_skill_id: solidity
+- text: Lua
+  expected_skill_id: lua
+- text: Dart
+  expected_skill_id: dart
+- text: Elixir
+  expected_skill_id: elixir
+- text: Haskell
+  expected_skill_id: haskell
+- text: Julia
+  expected_skill_id: julia
+- text: Perl
+  expected_skill_id: perl
+- text: Assembly
+  expected_skill_id: assembly
+- text: Groovy
+  expected_skill_id: groovy
+- text: Objective-C
+  expected_skill_id: objective-c
+- text: F#
+  expected_skill_id: f
+- text: Fortran
+  expected_skill_id: fortran
+- text: COBOL
+  expected_skill_id: cobol
+- text: WebAssembly
+  expected_skill_id: webassembly
+- text: Data Structures
+  expected_skill_id: data-structures
+- text: Algorithms
+  expected_skill_id: algorithms
+- text: Data Structures and Algorithms
+  expected_skill_id: data-structures-and-algorithms
+- text: Object-Oriented Programming
+  expected_skill_id: object-oriented-programming
+- text: Functional Programming
+  expected_skill_id: functional-programming
+- text: Programming Paradigms
+  expected_skill_id: programming-paradigms
+- text: Discrete Mathematics
+  expected_skill_id: discrete-mathematics
+- text: Logic and Proofs
+  expected_skill_id: logic-and-proofs
+- text: Linear Algebra
+  expected_skill_id: linear-algebra
+- text: Calculus
+  expected_skill_id: calculus
+- text: Operating
+  expected_skill_id: operating
+- text: Systems
+  expected_skill_id: systems
+- text: Computer Architecture
+  expected_skill_id: computer-architecture
+- text: Computer Networks
+  expected_skill_id: computer-networks
+- text: Distributed Systems
+  expected_skill_id: distributed-systems
+- text: Compilers
+  expected_skill_id: compilers
+- text: Programming
+  expected_skill_id: programming
+- text: Languages
+  expected_skill_id: languages
+- text: Theory of Computation
+  expected_skill_id: theory-of-computation
+- text: Complexity Analysis
+  expected_skill_id: complexity-analysis
+- text: Concurrency
+  expected_skill_id: concurrency
+- text: Parallel Computing
+  expected_skill_id: parallel-computing
+- text: Memory Management
+  expected_skill_id: memory-management
+- text: File Systems
+  expected_skill_id: file-systems
+- text: Cryptography
+  expected_skill_id: cryptography
+- text: Graph
+  expected_skill_id: graph
+- text: Theory
+  expected_skill_id: theory
+- text: Combinatorics
+  expected_skill_id: combinatorics
+- text: Information Theory
+  expected_skill_id: information-theory
+- text: Software Design
+  expected_skill_id: software-design
+- text: System Design
+  expected_skill_id: system-design
+- text: Domain-Driven Design
+  expected_skill_id: domain-driven-design
+- text: Design Patterns
+  expected_skill_id: design-patterns
+- text: Clean Code
+  expected_skill_id: clean-code
+- text: Refactoring
+  expected_skill_id: refactoring
+- text: Code Review
+  expected_skill_id: code-review
+- text: Version Control
+  expected_skill_id: version-control
+- text: Git
+  expected_skill_id: git
+- text: GitHub
+  expected_skill_id: github
+- text: GitLab
+  expected_skill_id: gitlab
+- text: Agile
+  expected_skill_id: agile
+- text: Scrum
+  expected_skill_id: scrum
+- text: Kanban
+  expected_skill_id: kanban
+- text: Requirements Engineering
+  expected_skill_id: requirements-engineering
+- text: Technical Writing
+  expected_skill_id: technical-writing
+- text: API Design
+  expected_skill_id: api-design
+- text: Microservices
+  expected_skill_id: microservices
+- text: Monolith Architecture
+  expected_skill_id: monolith-architecture
+- text: Event-Driven Architecture
+  expected_skill_id: event-driven-architecture
+- text: Message Queues
+  expected_skill_id: message-queues
+- text: Reliability Engineering
+  expected_skill_id: reliability-engineering
+- text: Site Reliability Engineering
+  expected_skill_id: site-reliability-engineering
+- text: Observability
+  expected_skill_id: observability
+- text: Capacity Planning
+  expected_skill_id: capacity-planning
+- text: Performance Engineering
+  expected_skill_id: performance-engineering
+- text: Feature Flags
+  expected_skill_id: feature-flags
+- text: Backward Compatibility
+  expected_skill_id: backward-compatibility
+- text: React
+  expected_skill_id: react
+- text: Angular
+  expected_skill_id: angular
+- text: Vue
+  expected_skill_id: vue
+- text: Svelte
+  expected_skill_id: svelte
+- text: Next.js
+  expected_skill_id: next-js
+- text: Remix
+  expected_skill_id: remix
+- text: Astro
+  expected_skill_id: astro
+- text: Vite
+  expected_skill_id: vite
+- text: Web Components
+  expected_skill_id: web-components
+- text: DOM
+  expected_skill_id: dom
+- text: Accessibility
+  expected_skill_id: accessibility
+- text: Responsive Design
+  expected_skill_id: responsive-design
+- text: Browser APIs
+  expected_skill_id: browser-apis
+- text: Progressive Web Apps
+  expected_skill_id: progressive-web-apps
+- text: Web Performance
+  expected_skill_id: web-performance
+- text: State Management
+  expected_skill_id: state-management
+- text: Redux
+  expected_skill_id: redux
+- text: Zustand
+  expected_skill_id: zustand
+- text: TanStack
+  expected_skill_id: tanstack
+- text: Query
+  expected_skill_id: query
+- text: Tailwind
+  expected_skill_id: tailwind
+- text: Sass
+  expected_skill_id: sass
+- text: CSS Grid
+  expected_skill_id: css-grid
+- text: Flexbox
+  expected_skill_id: flexbox
+- text: Webpack
+  expected_skill_id: webpack
+- text: Testing
+  expected_skill_id: testing
+- text: Storybook
+  expected_skill_id: storybook
+- text: FastAPI
+  expected_skill_id: fastapi
+- text: Django
+  expected_skill_id: django
+- text: Flask
+  expected_skill_id: flask
+- text: asp.net core
+  expected_skill_id: asp-net-core
+- text: ruby on rails
+  expected_skill_id: ruby-on-rails
+- text: laravel
+  expected_skill_id: laravel
+- text: rest apis
+  expected_skill_id: rest-apis

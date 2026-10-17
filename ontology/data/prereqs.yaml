@@ -1,0 +1,124 @@
+adjacent:
+  application-security:
+  - similarity_weight: 0.72
+    skill_id: secure-coding
+  - similarity_weight: 0.72
+    skill_id: threat-modeling
+  - similarity_weight: 0.72
+    skill_id: owasp-top-10
+  django:
+  - similarity_weight: 0.72
+    skill_id: python
+  - similarity_weight: 0.72
+    skill_id: rest-apis
+  - similarity_weight: 0.72
+    skill_id: postgresql
+  docker:
+  - similarity_weight: 0.72
+    skill_id: kubernetes
+  - similarity_weight: 0.72
+    skill_id: container-security
+  - similarity_weight: 0.72
+    skill_id: linux
+  fastapi:
+  - similarity_weight: 0.72
+    skill_id: python
+  - similarity_weight: 0.72
+    skill_id: rest-apis
+  - similarity_weight: 0.72
+    skill_id: openapi
+  large-language-models:
+  - similarity_weight: 0.72
+    skill_id: prompt-engineering
+  - similarity_weight: 0.72
+    skill_id: retrieval-augmented-generation
+  - similarity_weight: 0.72
+    skill_id: transformers
+  machine-learning:
+  - similarity_weight: 0.72
+    skill_id: statistics
+  - similarity_weight: 0.72
+    skill_id: pytorch
+  - similarity_weight: 0.72
+    skill_id: scikit-learn
+  - similarity_weight: 0.72
+    skill_id: feature-engineering
+  postgresql:
+  - similarity_weight: 0.72
+    skill_id: database-design
+  - similarity_weight: 0.72
+    skill_id: database-indexing
+  - similarity_weight: 0.72
+    skill_id: query-optimization
+  react:
+  - similarity_weight: 0.72
+    skill_id: typescript
+  - similarity_weight: 0.72
+    skill_id: javascript
+  - similarity_weight: 0.72
+    skill_id: next-js
+  - similarity_weight: 0.72
+    skill_id: web-performance
+prerequisites:
+  computer-vision:
+  - machine-learning
+  - linear-algebra
+  data-structures-and-algorithms:
+  - data-structures
+  - algorithms
+  deep-learning:
+  - machine-learning
+  - linear-algebra
+  - probability
+  - neural-networks
+  distributed-systems:
+  - computer-networks
+  kubernetes:
+  - docker
+  - linux
+  - network-security
+  large-language-models:
+  - deep-learning
+  - natural-language-processing
+  - transformers
+  machine-learning:
+  - statistics
+  - probability
+  - linear-algebra
+  - python
+  - numpy
+  mlops:
+  - machine-learning
+  - continuous-integration
+  - docker
+  model-serving:
+  - machine-learning
+  - docker
+  - rest-apis
+  natural-language-processing:
+  - machine-learning
+  - statistics
+  retrieval-augmented-generation:
+  - large-language-models
+  - embeddings
+  - vector-databases
+  system-design:
+  - data-structures
+  - distributed-systems
+  - database-design
+  terraform:
+  - infrastructure-as-code
+  - linux
+specializes:
+  convolutional-neural-networks:
+  - neural-networks
+  graph-neural-networks:
+  - neural-networks
+  next-js:
+  - react
+  react-native:
+  - react
+  recurrent-neural-networks:
+  - neural-networks
+  site-reliability-engineering:
+  - reliability-engineering

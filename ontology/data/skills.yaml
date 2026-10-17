@@ -1,0 +1,3013 @@
+skills:
+- id: python
+  canonical_name: Python
+  category: programming
+  aliases:
+  - python
+  description: Practical knowledge and application of Python.
+  market_demand_weight: 0.59
+- id: java
+  canonical_name: Java
+  category: programming
+  aliases:
+  - java
+  description: Practical knowledge and application of Java.
+  market_demand_weight: 0.78
+- id: javascript
+  canonical_name: JavaScript
+  category: programming
+  aliases:
+  - javascript
+  - js
+  - ecmascript
+  description: Practical knowledge and application of JavaScript.
+  market_demand_weight: 0.79
+- id: typescript
+  canonical_name: TypeScript
+  category: programming
+  aliases:
+  - typescript
+  - ts
+  description: Practical knowledge and application of TypeScript.
+  market_demand_weight: 0.56
+- id: c
+  canonical_name: C
+  category: programming
+  aliases:
+  - c
+  - c++
+  - cpp
+  - cplusplus
+  - c#
+  - c sharp
+  - dotnet c sharp
+  description: Practical knowledge and application of C.
+  market_demand_weight: 0.89
+- id: go
+  canonical_name: Go
+  category: programming
+  aliases:
+  - go
+  description: Practical knowledge and application of Go.
+  market_demand_weight: 0.94
+- id: rust
+  canonical_name: Rust
+  category: programming
+  aliases:
+  - rust
+  description: Practical knowledge and application of Rust.
+  market_demand_weight: 0.67
+- id: kotlin
+  canonical_name: Kotlin
+  category: programming
+  aliases:
+  - kotlin
+  description: Practical knowledge and application of Kotlin.
+  market_demand_weight: 0.97
+- id: swift
+  canonical_name: Swift
+  category: programming
+  aliases:
+  - swift
+  description: Practical knowledge and application of Swift.
+  market_demand_weight: 0.52
+- id: php
+  canonical_name: PHP
+  category: programming
+  aliases:
+  - php
+  description: Practical knowledge and application of PHP.
+  market_demand_weight: 0.98
+- id: ruby
+  canonical_name: Ruby
+  category: programming
+  aliases:
+  - ruby
+  description: Practical knowledge and application of Ruby.
+  market_demand_weight: 0.55
+- id: scala
+  canonical_name: Scala
+  category: programming
+  aliases:
+  - scala
+  description: Practical knowledge and application of Scala.
+  market_demand_weight: 0.66
+- id: r
+  canonical_name: R
+  category: programming
+  aliases:
+  - r
+  description: Practical knowledge and application of R.
+  market_demand_weight: 0.49
+- id: matlab
+  canonical_name: MATLAB
+  category: programming
+  aliases:
+  - matlab
+  description: Practical knowledge and application of MATLAB.
+  market_demand_weight: 0.65
+- id: bash
+  canonical_name: Bash
+  category: programming
+  aliases:
+  - bash
+  description: Practical knowledge and application of Bash.
+  market_demand_weight: 0.74
+- id: powershell
+  canonical_name: PowerShell
+  category: programming
+  aliases:
+  - powershell
+  description: Practical knowledge and application of PowerShell.
+  market_demand_weight: 0.93
+- id: sql
+  canonical_name: SQL
+  category: programming
+  aliases:
+  - sql
+  description: Practical knowledge and application of SQL.
+  market_demand_weight: 0.51
+- id: html
+  canonical_name: HTML
+  category: programming
+  aliases:
+  - html
+  description: Practical knowledge and application of HTML.
+  market_demand_weight: 0.97
+- id: css
+  canonical_name: CSS
+  category: programming
+  aliases:
+  - css
+  description: Practical knowledge and application of CSS.
+  market_demand_weight: 0.99
+- id: solidity
+  canonical_name: Solidity
+  category: programming
+  aliases:
+  - solidity
+  description: Practical knowledge and application of Solidity.
+  market_demand_weight: 0.46
+- id: lua
+  canonical_name: Lua
+  category: programming
+  aliases:
+  - lua
+  description: Practical knowledge and application of Lua.
+  market_demand_weight: 0.92
+- id: dart
+  canonical_name: Dart
+  category: programming
+  aliases:
+  - dart
+  description: Practical knowledge and application of Dart.
+  market_demand_weight: 0.87
+- id: elixir
+  canonical_name: Elixir
+  category: programming
+  aliases:
+  - elixir
+  description: Practical knowledge and application of Elixir.
+  market_demand_weight: 0.93
+- id: haskell
+  canonical_name: Haskell
+  category: programming
+  aliases:
+  - haskell
+  description: Practical knowledge and application of Haskell.
+  market_demand_weight: 0.7
+- id: julia
+  canonical_name: Julia
+  category: programming
+  aliases:
+  - julia
+  description: Practical knowledge and application of Julia.
+  market_demand_weight: 0.83
+- id: perl
+  canonical_name: Perl
+  category: programming
+  aliases:
+  - perl
+  description: Practical knowledge and application of Perl.
+  market_demand_weight: 0.95
+- id: assembly
+  canonical_name: Assembly
+  category: programming
+  aliases:
+  - assembly
+  description: Practical knowledge and application of Assembly.
+  market_demand_weight: 0.84
+- id: groovy
+  canonical_name: Groovy
+  category: programming
+  aliases:
+  - groovy
+  description: Practical knowledge and application of Groovy.
+  market_demand_weight: 0.63
+- id: objective-c
+  canonical_name: Objective-C
+  category: programming
+  aliases:
+  - objective-c
+  description: Practical knowledge and application of Objective-C.
+  market_demand_weight: 0.99
+- id: f
+  canonical_name: F#
+  category: programming
+  aliases:
+  - f#
+  description: Practical knowledge and application of F#.
+  market_demand_weight: 0.92
+- id: fortran
+  canonical_name: Fortran
+  category: programming
+  aliases:
+  - fortran
+  description: Practical knowledge and application of Fortran.
+  market_demand_weight: 0.94
+- id: cobol
+  canonical_name: COBOL
+  category: programming
+  aliases:
+  - cobol
+  description: Practical knowledge and application of COBOL.
+  market_demand_weight: 0.77
+- id: webassembly
+  canonical_name: WebAssembly
+  category: programming
+  aliases:
+  - webassembly
+  description: Practical knowledge and application of WebAssembly.
+  market_demand_weight: 0.72
+- id: data-structures
+  canonical_name: Data Structures
+  category: computer_science
+  aliases:
+  - data structures
+  - datastructures
+  - ds
+  - cs201 data structures
+  - data structure
+  description: Practical knowledge and application of Data Structures.
+  market_demand_weight: 0.84
+- id: algorithms
+  canonical_name: Algorithms
+  category: computer_science
+  aliases:
+  - algorithms
+  description: Practical knowledge and application of Algorithms.
+  market_demand_weight: 0.82
+- id: data-structures-and-algorithms
+  canonical_name: Data Structures and Algorithms
+  category: computer_science
+  aliases:
+  - data structures and algorithms
+  - datastructuresandalgorithms
+  - dsaa
+  - dsa
+  - algos
+  - data structures & algorithms
+  description: Practical knowledge and application of Data Structures and Algorithms.
+  market_demand_weight: 0.78
+- id: object-oriented-programming
+  canonical_name: Object-Oriented Programming
+  category: computer_science
+  aliases:
+  - object-oriented programming
+  - object-orientedprogramming
+  - op
+  - oop
+  - object oriented programming
+  description: Practical knowledge and application of Object-Oriented Programming.
+  market_demand_weight: 0.61
+- id: functional-programming
+  canonical_name: Functional Programming
+  category: computer_science
+  aliases:
+  - functional programming
+  - functionalprogramming
+  - fp
+  description: Practical knowledge and application of Functional Programming.
+  market_demand_weight: 0.97
+- id: programming-paradigms
+  canonical_name: Programming Paradigms
+  category: computer_science
+  aliases:
+  - programming paradigms
+  - programmingparadigms
+  - pp
+  description: Practical knowledge and application of Programming Paradigms.
+  market_demand_weight: 0.84
+- id: discrete-mathematics
+  canonical_name: Discrete Mathematics
+  category: computer_science
+  aliases:
+  - discrete mathematics
+  - discretemathematics
+  - dm
+  description: Practical knowledge and application of Discrete Mathematics.
+  market_demand_weight: 0.74
+- id: logic-and-proofs
+  canonical_name: Logic and Proofs
+  category: computer_science
+  aliases:
+  - logic and proofs
+  - logicandproofs
+  - lap
+  description: Practical knowledge and application of Logic and Proofs.
+  market_demand_weight: 0.93
+- id: linear-algebra
+  canonical_name: Linear Algebra
+  category: computer_science
+  aliases:
+  - linear algebra
+  - linearalgebra
+  - la
+  description: Practical knowledge and application of Linear Algebra.
+  market_demand_weight: 0.68
+- id: calculus
+  canonical_name: Calculus
+  category: computer_science
+  aliases:
+  - calculus
+  description: Practical knowledge and application of Calculus.
+  market_demand_weight: 0.8
+- id: operating
+  canonical_name: Operating
+  category: computer_science
+  aliases:
+  - operating
+  description: Practical knowledge and application of Operating.
+  market_demand_weight: 0.79
+- id: systems
+  canonical_name: Systems
+  category: computer_science
+  aliases:
+  - systems
+  description: Practical knowledge and application of Systems.
+  market_demand_weight: 0.67
+- id: computer-architecture
+  canonical_name: Computer Architecture
+  category: computer_science
+  aliases:
+  - computer architecture
+  - computerarchitecture
+  - ca
+  description: Practical knowledge and application of Computer Architecture.
+  market_demand_weight: 0.52
+- id: computer-networks
+  canonical_name: Computer Networks
+  category: computer_science
+  aliases:
+  - computer networks
+  - computernetworks
+  - cn
+  description: Practical knowledge and application of Computer Networks.
+  market_demand_weight: 0.47
+- id: distributed-systems
+  canonical_name: Distributed Systems
+  category: computer_science
+  aliases:
+  - distributed systems
+  - distributedsystems
+  - ds
+  description: Practical knowledge and application of Distributed Systems.
+  market_demand_weight: 0.89
+- id: compilers
+  canonical_name: Compilers
+  category: computer_science
+  aliases:
+  - compilers
+  description: Practical knowledge and application of Compilers.
+  market_demand_weight: 0.84
+- id: programming
+  canonical_name: Programming
+  category: computer_science
+  aliases:
+  - programming
+  description: Practical knowledge and application of Programming.
+  market_demand_weight: 0.77
+- id: languages
+  canonical_name: Languages
+  category: computer_science
+  aliases:
+  - languages
+  description: Practical knowledge and application of Languages.
+  market_demand_weight: 0.61
+- id: theory-of-computation
+  canonical_name: Theory of Computation
+  category: computer_science
+  aliases:
+  - theory of computation
+  - theoryofcomputation
+  - toc
+  description: Practical knowledge and application of Theory of Computation.
+  market_demand_weight: 0.73
+- id: complexity-analysis
+  canonical_name: Complexity Analysis
+  category: computer_science
+  aliases:
+  - complexity analysis
+  - complexityanalysis
+  - ca
+  description: Practical knowledge and application of Complexity Analysis.
+  market_demand_weight: 0.8
+- id: concurrency
+  canonical_name: Concurrency
+  category: computer_science
+  aliases:
+  - concurrency
+  description: Practical knowledge and application of Concurrency.
+  market_demand_weight: 0.85
+- id: parallel-computing
+  canonical_name: Parallel Computing
+  category: computer_science
+  aliases:
+  - parallel computing
+  - parallelcomputing
+  - pc
+  description: Practical knowledge and application of Parallel Computing.
+  market_demand_weight: 0.47
+- id: memory-management
+  canonical_name: Memory Management
+  category: computer_science
+  aliases:
+  - memory management
+  - memorymanagement
+  - mm
+  description: Practical knowledge and application of Memory Management.
+  market_demand_weight: 0.48
+- id: file-systems
+  canonical_name: File Systems
+  category: computer_science
+  aliases:
+  - file systems
+  - filesystems
+  - fs
+  description: Practical knowledge and application of File Systems.
+  market_demand_weight: 0.88
+- id: cryptography
+  canonical_name: Cryptography
+  category: computer_science
+  aliases:
+  - cryptography
+  description: Practical knowledge and application of Cryptography.
+  market_demand_weight: 0.49
+- id: graph
+  canonical_name: Graph
+  category: computer_science
+  aliases:
+  - graph
+  description: Practical knowledge and application of Graph.
+  market_demand_weight: 0.8
+- id: theory
+  canonical_name: Theory
+  category: computer_science
+  aliases:
+  - theory
+  description: Practical knowledge and application of Theory.
+  market_demand_weight: 0.52
+- id: combinatorics
+  canonical_name: Combinatorics
+  category: computer_science
+  aliases:
+  - combinatorics
+  description: Practical knowledge and application of Combinatorics.
+  market_demand_weight: 0.59
+- id: information-theory
+  canonical_name: Information Theory
+  category: computer_science
+  aliases:
+  - information theory
+  - informationtheory
+  - it
+  description: Practical knowledge and application of Information Theory.
+  market_demand_weight: 0.77
+- id: software-design
+  canonical_name: Software Design
+  category: software_engineering
+  aliases:
+  - software design
+  - softwaredesign
+  - sd
+  description: Practical knowledge and application of Software Design.
+  market_demand_weight: 0.59
+- id: system-design
+  canonical_name: System Design
+  category: software_engineering
+  aliases:
+  - system design
+  - systemdesign
+  - sd
+  description: Practical knowledge and application of System Design.
+  market_demand_weight: 0.81
+- id: domain-driven-design
+  canonical_name: Domain-Driven Design
+  category: software_engineering
+  aliases:
+  - domain-driven design
+  - domain-drivendesign
+  - dd
+  description: Practical knowledge and application of Domain-Driven Design.
+  market_demand_weight: 0.69
+- id: design-patterns
+  canonical_name: Design Patterns
+  category: software_engineering
+  aliases:
+  - design patterns
+  - designpatterns
+  - dp
+  description: Practical knowledge and application of Design Patterns.
+  market_demand_weight: 0.65
+- id: clean-code
+  canonical_name: Clean Code
+  category: software_engineering
+  aliases:
+  - clean code
+  - cleancode
+  - cc
+  description: Practical knowledge and application of Clean Code.
+  market_demand_weight: 0.81
+- id: refactoring
+  canonical_name: Refactoring
+  category: software_engineering
+  aliases:
+  - refactoring
+  description: Practical knowledge and application of Refactoring.
+  market_demand_weight: 0.62
+- id: code-review
+  canonical_name: Code Review
+  category: software_engineering
+  aliases:
+  - code review
+  - codereview
+  - cr
+  description: Practical knowledge and application of Code Review.
+  market_demand_weight: 0.59
+- id: version-control
+  canonical_name: Version Control
+  category: software_engineering
+  aliases:
+  - version control
+  - versioncontrol
+  - vc
+  description: Practical knowledge and application of Version Control.
+  market_demand_weight: 0.93
+- id: git
+  canonical_name: Git
+  category: software_engineering
+  aliases:
+  - git
+  description: Practical knowledge and application of Git.
+  market_demand_weight: 0.94
+- id: github
+  canonical_name: GitHub
+  category: software_engineering
+  aliases:
+  - github
+  description: Practical knowledge and application of GitHub.
+  market_demand_weight: 0.83
+- id: gitlab
+  canonical_name: GitLab
+  category: software_engineering
+  aliases:
+  - gitlab
+  description: Practical knowledge and application of GitLab.
+  market_demand_weight: 0.67
+- id: agile
+  canonical_name: Agile
+  category: software_engineering
+  aliases:
+  - agile
+  description: Practical knowledge and application of Agile.
+  market_demand_weight: 0.64
+- id: scrum
+  canonical_name: Scrum
+  category: software_engineering
+  aliases:
+  - scrum
+  description: Practical knowledge and application of Scrum.
+  market_demand_weight: 0.49
+- id: kanban
+  canonical_name: Kanban
+  category: software_engineering
+  aliases:
+  - kanban
+  description: Practical knowledge and application of Kanban.
+  market_demand_weight: 0.59
+- id: requirements-engineering
+  canonical_name: Requirements Engineering
+  category: software_engineering
+  aliases:
+  - requirements engineering
+  - requirementsengineering
+  - re
+  description: Practical knowledge and application of Requirements Engineering.
+  market_demand_weight: 0.94
+- id: technical-writing
+  canonical_name: Technical Writing
+  category: software_engineering
+  aliases:
+  - technical writing
+  - technicalwriting
+  - tw
+  description: Practical knowledge and application of Technical Writing.
+  market_demand_weight: 0.96
+- id: api-design
+  canonical_name: API Design
+  category: software_engineering
+  aliases:
+  - api design
+  - apidesign
+  - ad
+  description: Practical knowledge and application of API Design.
+  market_demand_weight: 0.48
+- id: microservices
+  canonical_name: Microservices
+  category: software_engineering
+  aliases:
+  - microservices
+  description: Practical knowledge and application of Microservices.
+  market_demand_weight: 0.76
+- id: monolith-architecture
+  canonical_name: Monolith Architecture
+  category: software_engineering
+  aliases:
+  - monolith architecture
+  - monolitharchitecture
+  - ma
+  description: Practical knowledge and application of Monolith Architecture.
+  market_demand_weight: 0.47
+- id: event-driven-architecture
+  canonical_name: Event-Driven Architecture
+  category: software_engineering
+  aliases:
+  - event-driven architecture
+  - event-drivenarchitecture
+  - ea
+  description: Practical knowledge and application of Event-Driven Architecture.
+  market_demand_weight: 0.82
+- id: message-queues
+  canonical_name: Message Queues
+  category: software_engineering
+  aliases:
+  - message queues
+  - messagequeues
+  - mq
+  description: Practical knowledge and application of Message Queues.
+  market_demand_weight: 0.65
+- id: reliability-engineering
+  canonical_name: Reliability Engineering
+  category: software_engineering
+  aliases:
+  - reliability engineering
+  - reliabilityengineering
+  - re
+  description: Practical knowledge and application of Reliability Engineering.
+  market_demand_weight: 0.66
+- id: site-reliability-engineering
+  canonical_name: Site Reliability Engineering
+  category: software_engineering
+  aliases:
+  - site reliability engineering
+  - sitereliabilityengineering
+  - sre
+  description: Practical knowledge and application of Site Reliability Engineering.
+  market_demand_weight: 0.53
+- id: observability
+  canonical_name: Observability
+  category: software_engineering
+  aliases:
+  - observability
+  description: Practical knowledge and application of Observability.
+  market_demand_weight: 0.77
+- id: capacity-planning
+  canonical_name: Capacity Planning
+  category: software_engineering
+  aliases:
+  - capacity planning
+  - capacityplanning
+  - cp
+  description: Practical knowledge and application of Capacity Planning.
+  market_demand_weight: 0.86
+- id: performance-engineering
+  canonical_name: Performance Engineering
+  category: software_engineering
+  aliases:
+  - performance engineering
+  - performanceengineering
+  - pe
+  description: Practical knowledge and application of Performance Engineering.
+  market_demand_weight: 0.58
+- id: feature-flags
+  canonical_name: Feature Flags
+  category: software_engineering
+  aliases:
+  - feature flags
+  - featureflags
+  - ff
+  description: Practical knowledge and application of Feature Flags.
+  market_demand_weight: 0.98
+- id: backward-compatibility
+  canonical_name: Backward Compatibility
+  category: software_engineering
+  aliases:
+  - backward compatibility
+  - backwardcompatibility
+  - bc
+  description: Practical knowledge and application of Backward Compatibility.
+  market_demand_weight: 0.68
+- id: react
+  canonical_name: React
+  category: web_frontend
+  aliases:
+  - react
+  description: Practical knowledge and application of React.
+  market_demand_weight: 0.77
+- id: angular
+  canonical_name: Angular
+  category: web_frontend
+  aliases:
+  - angular
+  description: Practical knowledge and application of Angular.
+  market_demand_weight: 0.76
+- id: vue
+  canonical_name: Vue
+  category: web_frontend
+  aliases:
+  - vue
+  description: Practical knowledge and application of Vue.
+  market_demand_weight: 0.51
+- id: svelte
+  canonical_name: Svelte
+  category: web_frontend
+  aliases:
+  - svelte
+  description: Practical knowledge and application of Svelte.
+  market_demand_weight: 0.99
+- id: next-js
+  canonical_name: Next.js
+  category: web_frontend
+  aliases:
+  - next.js
+  description: Practical knowledge and application of Next.js.
+  market_demand_weight: 0.98
+- id: remix
+  canonical_name: Remix
+  category: web_frontend
+  aliases:
+  - remix
+  description: Practical knowledge and application of Remix.
+  market_demand_weight: 0.99
+- id: astro
+  canonical_name: Astro
+  category: web_frontend
+  aliases:
+  - astro
+  description: Practical knowledge and application of Astro.
+  market_demand_weight: 0.48
+- id: vite
+  canonical_name: Vite
+  category: web_frontend
+  aliases:
+  - vite
+  description: Practical knowledge and application of Vite.
+  market_demand_weight: 0.45
+- id: web-components
+  canonical_name: Web Components
+  category: web_frontend
+  aliases:
+  - web components
+  - webcomponents
+  - wc
+  description: Practical knowledge and application of Web Components.
+  market_demand_weight: 0.72
+- id: dom
+  canonical_name: DOM
+  category: web_frontend
+  aliases:
+  - dom
+  description: Practical knowledge and application of DOM.
+  market_demand_weight: 0.9
+- id: accessibility
+  canonical_name: Accessibility
+  category: web_frontend
+  aliases:
+  - accessibility
+  description: Practical knowledge and application of Accessibility.
+  market_demand_weight: 0.54
+- id: responsive-design
+  canonical_name: Responsive Design
+  category: web_frontend
+  aliases:
+  - responsive design
+  - responsivedesign
+  - rd
+  description: Practical knowledge and application of Responsive Design.
+  market_demand_weight: 0.66
+- id: browser-apis
+  canonical_name: Browser APIs
+  category: web_frontend
+  aliases:
+  - browser apis
+  - browserapis
+  - ba
+  description: Practical knowledge and application of Browser APIs.
+  market_demand_weight: 0.81
+- id: progressive-web-apps
+  canonical_name: Progressive Web Apps
+  category: web_frontend
+  aliases:
+  - progressive web apps
+  - progressivewebapps
+  - pwa
+  description: Practical knowledge and application of Progressive Web Apps.
+  market_demand_weight: 0.63
+- id: web-performance
+  canonical_name: Web Performance
+  category: web_frontend
+  aliases:
+  - web performance
+  - webperformance
+  - wp
+  description: Practical knowledge and application of Web Performance.
+  market_demand_weight: 0.93
+- id: state-management
+  canonical_name: State Management
+  category: web_frontend
+  aliases:
+  - state management
+  - statemanagement
+  - sm
+  description: Practical knowledge and application of State Management.
+  market_demand_weight: 0.93
+- id: redux
+  canonical_name: Redux
+  category: web_frontend
+  aliases:
+  - redux
+  description: Practical knowledge and application of Redux.
+  market_demand_weight: 0.47
+- id: zustand
+  canonical_name: Zustand
+  category: web_frontend
+  aliases:
+  - zustand
+  description: Practical knowledge and application of Zustand.
+  market_demand_weight: 0.52
+- id: tanstack
+  canonical_name: TanStack
+  category: web_frontend
+  aliases:
+  - tanstack
+  description: Practical knowledge and application of TanStack.
+  market_demand_weight: 0.77
+- id: query
+  canonical_name: Query
+  category: web_frontend
+  aliases:
+  - query
+  description: Practical knowledge and application of Query.
+  market_demand_weight: 0.61
+- id: tailwind
+  canonical_name: Tailwind
+  category: web_frontend
+  aliases:
+  - tailwind
+  description: Practical knowledge and application of Tailwind.
+  market_demand_weight: 0.8
+- id: sass
+  canonical_name: Sass
+  category: web_frontend
+  aliases:
+  - sass
+  description: Practical knowledge and application of Sass.
+  market_demand_weight: 0.47
+- id: css-grid
+  canonical_name: CSS Grid
+  category: web_frontend
+  aliases:
+  - css grid
+  - cssgrid
+  - cg
+  description: Practical knowledge and application of CSS Grid.
+  market_demand_weight: 0.71
+- id: flexbox
+  canonical_name: Flexbox
+  category: web_frontend
+  aliases:
+  - flexbox
+  description: Practical knowledge and application of Flexbox.
+  market_demand_weight: 0.9
+- id: webpack
+  canonical_name: Webpack
+  category: web_frontend
+  aliases:
+  - webpack
+  description: Practical knowledge and application of Webpack.
+  market_demand_weight: 0.63
+- id: testing
+  canonical_name: Testing
+  category: web_frontend
+  aliases:
+  - testing
+  description: Practical knowledge and application of Testing.
+  market_demand_weight: 0.96
+- id: storybook
+  canonical_name: Storybook
+  category: web_frontend
+  aliases:
+  - storybook
+  description: Practical knowledge and application of Storybook.
+  market_demand_weight: 0.59
+- id: fastapi
+  canonical_name: FastAPI
+  category: backend_api
+  aliases:
+  - fastapi
+  description: Practical knowledge and application of FastAPI.
+  market_demand_weight: 0.74
+- id: django
+  canonical_name: Django
+  category: backend_api
+  aliases:
+  - django
+  description: Practical knowledge and application of Django.
+  market_demand_weight: 0.67
+- id: flask
+  canonical_name: Flask
+  category: backend_api
+  aliases:
+  - flask
+  description: Practical knowledge and application of Flask.
+  market_demand_weight: 0.79
+- id: node-js
+  canonical_name: Node.js
+  category: backend_api
+  aliases:
+  - node.js
+  description: Practical knowledge and application of Node.js.
+  market_demand_weight: 0.73
+- id: express
+  canonical_name: Express
+  category: backend_api
+  aliases:
+  - express
+  description: Practical knowledge and application of Express.
+  market_demand_weight: 0.53
+- id: nestjs
+  canonical_name: NestJS
+  category: backend_api
+  aliases:
+  - nestjs
+  description: Practical knowledge and application of NestJS.
+  market_demand_weight: 0.48
+- id: spring-boot
+  canonical_name: Spring Boot
+  category: backend_api
+  aliases:
+  - spring boot
+  - springboot
+  - sb
+  description: Practical knowledge and application of Spring Boot.
+  market_demand_weight: 0.85
+- id: asp-net-core
+  canonical_name: ASP.NET Core
+  category: backend_api
+  aliases:
+  - asp.net core
+  - asp.netcore
+  - ac
+  description: Practical knowledge and application of ASP.NET Core.
+  market_demand_weight: 0.56
+- id: ruby-on-rails
+  canonical_name: Ruby on Rails
+  category: backend_api
+  aliases:
+  - ruby on rails
+  - rubyonrails
+  - ror
+  description: Practical knowledge and application of Ruby on Rails.
+  market_demand_weight: 0.8
+- id: laravel
+  canonical_name: Laravel
+  category: backend_api
+  aliases:
+  - laravel
+  description: Practical knowledge and application of Laravel.
+  market_demand_weight: 0.73
+- id: rest-apis
+  canonical_name: REST APIs
+  category: backend_api
+  aliases:
+  - rest apis
+  - restapis
+  - ra
+  - rest
+  - restful apis
+  description: Practical knowledge and application of REST APIs.
+  market_demand_weight: 0.85
+- id: graphql
+  canonical_name: GraphQL
+  category: backend_api
+  aliases:
+  - graphql
+  description: Practical knowledge and application of GraphQL.
+  market_demand_weight: 0.81
+- id: grpc
+  canonical_name: gRPC
+  category: backend_api
+  aliases:
+  - grpc
+  description: Practical knowledge and application of gRPC.
+  market_demand_weight: 0.88
+- id: authentication
+  canonical_name: Authentication
+  category: backend_api
+  aliases:
+  - authentication
+  description: Practical knowledge and application of Authentication.
+  market_demand_weight: 0.64
+- id: authorization
+  canonical_name: Authorization
+  category: backend_api
+  aliases:
+  - authorization
+  description: Practical knowledge and application of Authorization.
+  market_demand_weight: 0.95
+- id: oauth
+  canonical_name: OAuth
+  category: backend_api
+  aliases:
+  - oauth
+  description: Practical knowledge and application of OAuth.
+  market_demand_weight: 0.95
+- id: openid-connect
+  canonical_name: OpenID Connect
+  category: backend_api
+  aliases:
+  - openid connect
+  - openidconnect
+  - oc
+  description: Practical knowledge and application of OpenID Connect.
+  market_demand_weight: 0.45
+- id: websockets
+  canonical_name: WebSockets
+  category: backend_api
+  aliases:
+  - websockets
+  description: Practical knowledge and application of WebSockets.
+  market_demand_weight: 0.82
+- id: server-sent-events
+  canonical_name: Server-Sent Events
+  category: backend_api
+  aliases:
+  - server-sent events
+  - server-sentevents
+  - se
+  description: Practical knowledge and application of Server-Sent Events.
+  market_demand_weight: 0.86
+- id: api
+  canonical_name: API
+  category: backend_api
+  aliases:
+  - api
+  description: Practical knowledge and application of API.
+  market_demand_weight: 0.84
+- id: security
+  canonical_name: Security
+  category: backend_api
+  aliases:
+  - security
+  description: Practical knowledge and application of Security.
+  market_demand_weight: 0.53
+- id: rate
+  canonical_name: Rate
+  category: backend_api
+  aliases:
+  - rate
+  description: Practical knowledge and application of Rate.
+  market_demand_weight: 0.88
+- id: limiting
+  canonical_name: Limiting
+  category: backend_api
+  aliases:
+  - limiting
+  description: Practical knowledge and application of Limiting.
+  market_demand_weight: 0.81
+- id: input-validation
+  canonical_name: Input Validation
+  category: backend_api
+  aliases:
+  - input validation
+  - inputvalidation
+  - iv
+  description: Practical knowledge and application of Input Validation.
+  market_demand_weight: 0.67
+- id: background-jobs
+  canonical_name: Background Jobs
+  category: backend_api
+  aliases:
+  - background jobs
+  - backgroundjobs
+  - bj
+  description: Practical knowledge and application of Background Jobs.
+  market_demand_weight: 0.91
+- id: caching
+  canonical_name: Caching
+  category: backend_api
+  aliases:
+  - caching
+  description: Practical knowledge and application of Caching.
+  market_demand_weight: 0.47
+- id: redis
+  canonical_name: Redis
+  category: backend_api
+  aliases:
+  - redis
+  description: Practical knowledge and application of Redis.
+  market_demand_weight: 0.85
+- id: api-documentation
+  canonical_name: API Documentation
+  category: backend_api
+  aliases:
+  - api documentation
+  - apidocumentation
+  - ad
+  description: Practical knowledge and application of API Documentation.
+  market_demand_weight: 0.46
+- id: openapi
+  canonical_name: OpenAPI
+  category: backend_api
+  aliases:
+  - openapi
+  description: Practical knowledge and application of OpenAPI.
+  market_demand_weight: 0.78
+- id: postgresql
+  canonical_name: PostgreSQL
+  category: database_data_engineering
+  aliases:
+  - postgresql
+  - postgres
+  - psql
+  description: Practical knowledge and application of PostgreSQL.
+  market_demand_weight: 0.53
+- id: mysql
+  canonical_name: MySQL
+  category: database_data_engineering
+  aliases:
+  - mysql
+  description: Practical knowledge and application of MySQL.
+  market_demand_weight: 0.61
+- id: sqlite
+  canonical_name: SQLite
+  category: database_data_engineering
+  aliases:
+  - sqlite
+  description: Practical knowledge and application of SQLite.
+  market_demand_weight: 0.98
+- id: microsoft-sql-server
+  canonical_name: Microsoft SQL Server
+  category: database_data_engineering
+  aliases:
+  - microsoft sql server
+  - microsoftsqlserver
+  - mss
+  description: Practical knowledge and application of Microsoft SQL Server.
+  market_demand_weight: 0.81
+- id: oracle-database
+  canonical_name: Oracle Database
+  category: database_data_engineering
+  aliases:
+  - oracle database
+  - oracledatabase
+  - od
+  description: Practical knowledge and application of Oracle Database.
+  market_demand_weight: 0.56
+- id: mongodb
+  canonical_name: MongoDB
+  category: database_data_engineering
+  aliases:
+  - mongodb
+  description: Practical knowledge and application of MongoDB.
+  market_demand_weight: 0.72
+- id: dynamodb
+  canonical_name: DynamoDB
+  category: database_data_engineering
+  aliases:
+  - dynamodb
+  description: Practical knowledge and application of DynamoDB.
+  market_demand_weight: 0.66
+- id: cassandra
+  canonical_name: Cassandra
+  category: database_data_engineering
+  aliases:
+  - cassandra
+  description: Practical knowledge and application of Cassandra.
+  market_demand_weight: 0.54
+- id: elasticsearch
+  canonical_name: Elasticsearch
+  category: database_data_engineering
+  aliases:
+  - elasticsearch
+  description: Practical knowledge and application of Elasticsearch.
+  market_demand_weight: 0.96
+- id: neo4j
+  canonical_name: Neo4j
+  category: database_data_engineering
+  aliases:
+  - neo4j
+  description: Practical knowledge and application of Neo4j.
+  market_demand_weight: 0.85
+- id: database-design
+  canonical_name: Database Design
+  category: database_data_engineering
+  aliases:
+  - database design
+  - databasedesign
+  - dd
+  description: Practical knowledge and application of Database Design.
+  market_demand_weight: 0.6
+- id: database-indexing
+  canonical_name: Database Indexing
+  category: database_data_engineering
+  aliases:
+  - database indexing
+  - databaseindexing
+  - di
+  description: Practical knowledge and application of Database Indexing.
+  market_demand_weight: 0.6
+- id: query-optimization
+  canonical_name: Query Optimization
+  category: database_data_engineering
+  aliases:
+  - query optimization
+  - queryoptimization
+  - qo
+  description: Practical knowledge and application of Query Optimization.
+  market_demand_weight: 0.5
+- id: transactions
+  canonical_name: Transactions
+  category: database_data_engineering
+  aliases:
+  - transactions
+  description: Practical knowledge and application of Transactions.
+  market_demand_weight: 0.85
+- id: data-modeling
+  canonical_name: Data Modeling
+  category: database_data_engineering
+  aliases:
+  - data modeling
+  - datamodeling
+  - dm
+  description: Practical knowledge and application of Data Modeling.
+  market_demand_weight: 0.82
+- id: data-warehousing
+  canonical_name: Data Warehousing
+  category: database_data_engineering
+  aliases:
+  - data warehousing
+  - datawarehousing
+  - dw
+  description: Practical knowledge and application of Data Warehousing.
+  market_demand_weight: 0.46
+- id: etl
+  canonical_name: ETL
+  category: database_data_engineering
+  aliases:
+  - etl
+  description: Practical knowledge and application of ETL.
+  market_demand_weight: 0.95
+- id: elt
+  canonical_name: ELT
+  category: database_data_engineering
+  aliases:
+  - elt
+  description: Practical knowledge and application of ELT.
+  market_demand_weight: 0.95
+- id: apache-spark
+  canonical_name: Apache Spark
+  category: database_data_engineering
+  aliases:
+  - apache spark
+  - apachespark
+  - as
+  description: Practical knowledge and application of Apache Spark.
+  market_demand_weight: 0.9
+- id: apache-kafka
+  canonical_name: Apache Kafka
+  category: database_data_engineering
+  aliases:
+  - apache kafka
+  - apachekafka
+  - ak
+  description: Practical knowledge and application of Apache Kafka.
+  market_demand_weight: 0.55
+- id: apache-airflow
+  canonical_name: Apache Airflow
+  category: database_data_engineering
+  aliases:
+  - apache airflow
+  - apacheairflow
+  - aa
+  description: Practical knowledge and application of Apache Airflow.
+  market_demand_weight: 0.81
+- id: dbt
+  canonical_name: dbt
+  category: database_data_engineering
+  aliases:
+  - dbt
+  description: Practical knowledge and application of dbt.
+  market_demand_weight: 0.84
+- id: data-lakes
+  canonical_name: Data Lakes
+  category: database_data_engineering
+  aliases:
+  - data lakes
+  - datalakes
+  - dl
+  description: Practical knowledge and application of Data Lakes.
+  market_demand_weight: 0.93
+- id: data-quality
+  canonical_name: Data Quality
+  category: database_data_engineering
+  aliases:
+  - data quality
+  - dataquality
+  - dq
+  description: Practical knowledge and application of Data Quality.
+  market_demand_weight: 0.67
+- id: data-governance
+  canonical_name: Data Governance
+  category: database_data_engineering
+  aliases:
+  - data governance
+  - datagovernance
+  - dg
+  description: Practical knowledge and application of Data Governance.
+  market_demand_weight: 0.79
+- id: stream-processing
+  canonical_name: Stream Processing
+  category: database_data_engineering
+  aliases:
+  - stream processing
+  - streamprocessing
+  - sp
+  description: Practical knowledge and application of Stream Processing.
+  market_demand_weight: 0.67
+- id: amazon-web-services
+  canonical_name: Amazon Web Services
+  category: cloud_devops
+  aliases:
+  - amazon web services
+  - amazonwebservices
+  - aws
+  - amazon cloud
+  - amazon web services cloud
+  description: Practical knowledge and application of Amazon Web Services.
+  market_demand_weight: 0.97
+- id: microsoft-azure
+  canonical_name: Microsoft Azure
+  category: cloud_devops
+  aliases:
+  - microsoft azure
+  - microsoftazure
+  - ma
+  - azure
+  - ms azure
+  description: Practical knowledge and application of Microsoft Azure.
+  market_demand_weight: 0.83
+- id: google-cloud-platform
+  canonical_name: Google Cloud Platform
+  category: cloud_devops
+  aliases:
+  - google cloud platform
+  - googlecloudplatform
+  - gcp
+  - google cloud
+  description: Practical knowledge and application of Google Cloud Platform.
+  market_demand_weight: 0.86
+- id: docker
+  canonical_name: Docker
+  category: cloud_devops
+  aliases:
+  - docker
+  description: Practical knowledge and application of Docker.
+  market_demand_weight: 0.72
+- id: kubernetes
+  canonical_name: Kubernetes
+  category: cloud_devops
+  aliases:
+  - kubernetes
+  description: Practical knowledge and application of Kubernetes.
+  market_demand_weight: 0.8
+- id: helm
+  canonical_name: Helm
+  category: cloud_devops
+  aliases:
+  - helm
+  description: Practical knowledge and application of Helm.
+  market_demand_weight: 0.82
+- id: terraform
+  canonical_name: Terraform
+  category: cloud_devops
+  aliases:
+  - terraform
+  description: Practical knowledge and application of Terraform.
+  market_demand_weight: 0.88
+- id: pulumi
+  canonical_name: Pulumi
+  category: cloud_devops
+  aliases:
+  - pulumi
+  description: Practical knowledge and application of Pulumi.
+  market_demand_weight: 0.53
+- id: ansible
+  canonical_name: Ansible
+  category: cloud_devops
+  aliases:
+  - ansible
+  description: Practical knowledge and application of Ansible.
+  market_demand_weight: 0.64
+- id: linux
+  canonical_name: Linux
+  category: cloud_devops
+  aliases:
+  - linux
+  description: Practical knowledge and application of Linux.
+  market_demand_weight: 0.55
+- id: nginx
+  canonical_name: Nginx
+  category: cloud_devops
+  aliases:
+  - nginx
+  description: Practical knowledge and application of Nginx.
+  market_demand_weight: 0.98
+- id: github-actions
+  canonical_name: GitHub Actions
+  category: cloud_devops
+  aliases:
+  - github actions
+  - githubactions
+  - ga
+  description: Practical knowledge and application of GitHub Actions.
+  market_demand_weight: 0.56
+- id: gitlab-ci
+  canonical_name: GitLab CI
+  category: cloud_devops
+  aliases:
+  - gitlab ci
+  - gitlabci
+  - gc
+  description: Practical knowledge and application of GitLab CI.
+  market_demand_weight: 0.96
+- id: jenkins
+  canonical_name: Jenkins
+  category: cloud_devops
+  aliases:
+  - jenkins
+  description: Practical knowledge and application of Jenkins.
+  market_demand_weight: 0.84
+- id: continuous-integration
+  canonical_name: Continuous Integration
+  category: cloud_devops
+  aliases:
+  - continuous integration
+  - continuousintegration
+  - ci
+  - build integration
+  description: Practical knowledge and application of Continuous Integration.
+  market_demand_weight: 0.79
+- id: continuous-delivery
+  canonical_name: Continuous Delivery
+  category: cloud_devops
+  aliases:
+  - continuous delivery
+  - continuousdelivery
+  - cd
+  - continuous deployment
+  description: Practical knowledge and application of Continuous Delivery.
+  market_demand_weight: 0.89
+- id: infrastructure-as-code
+  canonical_name: Infrastructure as Code
+  category: cloud_devops
+  aliases:
+  - infrastructure as code
+  - infrastructureascode
+  - iac
+  description: Practical knowledge and application of Infrastructure as Code.
+  market_demand_weight: 0.95
+- id: cloud-networking
+  canonical_name: Cloud Networking
+  category: cloud_devops
+  aliases:
+  - cloud networking
+  - cloudnetworking
+  - cn
+  description: Practical knowledge and application of Cloud Networking.
+  market_demand_weight: 0.71
+- id: serverless-computing
+  canonical_name: Serverless Computing
+  category: cloud_devops
+  aliases:
+  - serverless computing
+  - serverlesscomputing
+  - sc
+  description: Practical knowledge and application of Serverless Computing.
+  market_demand_weight: 0.84
+- id: aws
+  canonical_name: AWS
+  category: cloud_devops
+  aliases:
+  - aws
+  description: Practical knowledge and application of AWS.
+  market_demand_weight: 0.46
+- id: lambda
+  canonical_name: Lambda
+  category: cloud_devops
+  aliases:
+  - lambda
+  description: Practical knowledge and application of Lambda.
+  market_demand_weight: 0.49
+- id: azure-functions
+  canonical_name: Azure Functions
+  category: cloud_devops
+  aliases:
+  - azure functions
+  - azurefunctions
+  - af
+  description: Practical knowledge and application of Azure Functions.
+  market_demand_weight: 0.86
+- id: google-cloud-run
+  canonical_name: Google Cloud Run
+  category: cloud_devops
+  aliases:
+  - google cloud run
+  - googlecloudrun
+  - gcr
+  description: Practical knowledge and application of Google Cloud Run.
+  market_demand_weight: 0.53
+- id: prometheus
+  canonical_name: Prometheus
+  category: cloud_devops
+  aliases:
+  - prometheus
+  description: Practical knowledge and application of Prometheus.
+  market_demand_weight: 0.45
+- id: grafana
+  canonical_name: Grafana
+  category: cloud_devops
+  aliases:
+  - grafana
+  description: Practical knowledge and application of Grafana.
+  market_demand_weight: 0.5
+- id: opentelemetry
+  canonical_name: OpenTelemetry
+  category: cloud_devops
+  aliases:
+  - opentelemetry
+  description: Practical knowledge and application of OpenTelemetry.
+  market_demand_weight: 0.91
+- id: jaeger
+  canonical_name: Jaeger
+  category: cloud_devops
+  aliases:
+  - jaeger
+  description: Practical knowledge and application of Jaeger.
+  market_demand_weight: 0.62
+- id: logging
+  canonical_name: Logging
+  category: cloud_devops
+  aliases:
+  - logging
+  description: Practical knowledge and application of Logging.
+  market_demand_weight: 0.73
+- id: monitoring
+  canonical_name: Monitoring
+  category: cloud_devops
+  aliases:
+  - monitoring
+  description: Practical knowledge and application of Monitoring.
+  market_demand_weight: 0.94
+- id: alerting
+  canonical_name: Alerting
+  category: cloud_devops
+  aliases:
+  - alerting
+  description: Practical knowledge and application of Alerting.
+  market_demand_weight: 0.74
+- id: secrets-management
+  canonical_name: Secrets Management
+  category: cloud_devops
+  aliases:
+  - secrets management
+  - secretsmanagement
+  - sm
+  description: Practical knowledge and application of Secrets Management.
+  market_demand_weight: 0.89
+- id: container-security
+  canonical_name: Container Security
+  category: cloud_devops
+  aliases:
+  - container security
+  - containersecurity
+  - cs
+  description: Practical knowledge and application of Container Security.
+  market_demand_weight: 0.71
+- id: statistics
+  canonical_name: Statistics
+  category: data_science_analytics
+  aliases:
+  - statistics
+  description: Practical knowledge and application of Statistics.
+  market_demand_weight: 0.99
+- id: probability
+  canonical_name: Probability
+  category: data_science_analytics
+  aliases:
+  - probability
+  description: Practical knowledge and application of Probability.
+  market_demand_weight: 0.75
+- id: hypothesis-testing
+  canonical_name: Hypothesis Testing
+  category: data_science_analytics
+  aliases:
+  - hypothesis testing
+  - hypothesistesting
+  - ht
+  description: Practical knowledge and application of Hypothesis Testing.
+  market_demand_weight: 0.9
+- id: experimental-design
+  canonical_name: Experimental Design
+  category: data_science_analytics
+  aliases:
+  - experimental design
+  - experimentaldesign
+  - ed
+  description: Practical knowledge and application of Experimental Design.
+  market_demand_weight: 0.93
+- id: a-b-testing
+  canonical_name: A B Testing
+  category: data_science_analytics
+  aliases:
+  - a b testing
+  - abtesting
+  - abt
+  description: Practical knowledge and application of A B Testing.
+  market_demand_weight: 0.51
+- id: regression-analysis
+  canonical_name: Regression Analysis
+  category: data_science_analytics
+  aliases:
+  - regression analysis
+  - regressionanalysis
+  - ra
+  description: Practical knowledge and application of Regression Analysis.
+  market_demand_weight: 0.67
+- id: time-series-analysis
+  canonical_name: Time Series Analysis
+  category: data_science_analytics
+  aliases:
+  - time series analysis
+  - timeseriesanalysis
+  - tsa
+  description: Practical knowledge and application of Time Series Analysis.
+  market_demand_weight: 0.5
+- id: bayesian-statistics
+  canonical_name: Bayesian Statistics
+  category: data_science_analytics
+  aliases:
+  - bayesian statistics
+  - bayesianstatistics
+  - bs
+  description: Practical knowledge and application of Bayesian Statistics.
+  market_demand_weight: 0.53
+- id: causal-inference
+  canonical_name: Causal Inference
+  category: data_science_analytics
+  aliases:
+  - causal inference
+  - causalinference
+  - ci
+  description: Practical knowledge and application of Causal Inference.
+  market_demand_weight: 0.71
+- id: data-visualization
+  canonical_name: Data Visualization
+  category: data_science_analytics
+  aliases:
+  - data visualization
+  - datavisualization
+  - dv
+  description: Practical knowledge and application of Data Visualization.
+  market_demand_weight: 0.56
+- id: tableau
+  canonical_name: Tableau
+  category: data_science_analytics
+  aliases:
+  - tableau
+  description: Practical knowledge and application of Tableau.
+  market_demand_weight: 0.64
+- id: power-bi
+  canonical_name: Power BI
+  category: data_science_analytics
+  aliases:
+  - power bi
+  - powerbi
+  - pb
+  description: Practical knowledge and application of Power BI.
+  market_demand_weight: 0.8
+- id: looker
+  canonical_name: Looker
+  category: data_science_analytics
+  aliases:
+  - looker
+  description: Practical knowledge and application of Looker.
+  market_demand_weight: 0.92
+- id: matplotlib
+  canonical_name: Matplotlib
+  category: data_science_analytics
+  aliases:
+  - matplotlib
+  description: Practical knowledge and application of Matplotlib.
+  market_demand_weight: 0.8
+- id: seaborn
+  canonical_name: Seaborn
+  category: data_science_analytics
+  aliases:
+  - seaborn
+  description: Practical knowledge and application of Seaborn.
+  market_demand_weight: 0.76
+- id: plotly
+  canonical_name: Plotly
+  category: data_science_analytics
+  aliases:
+  - plotly
+  description: Practical knowledge and application of Plotly.
+  market_demand_weight: 0.61
+- id: pandas
+  canonical_name: Pandas
+  category: data_science_analytics
+  aliases:
+  - pandas
+  description: Practical knowledge and application of Pandas.
+  market_demand_weight: 0.71
+- id: numpy
+  canonical_name: NumPy
+  category: data_science_analytics
+  aliases:
+  - numpy
+  description: Practical knowledge and application of NumPy.
+  market_demand_weight: 0.64
+- id: jupyter-notebooks
+  canonical_name: Jupyter Notebooks
+  category: data_science_analytics
+  aliases:
+  - jupyter notebooks
+  - jupyternotebooks
+  - jn
+  description: Practical knowledge and application of Jupyter Notebooks.
+  market_demand_weight: 0.97
+- id: feature-engineering
+  canonical_name: Feature Engineering
+  category: data_science_analytics
+  aliases:
+  - feature engineering
+  - featureengineering
+  - fe
+  description: Practical knowledge and application of Feature Engineering.
+  market_demand_weight: 0.76
+- id: data-cleaning
+  canonical_name: Data Cleaning
+  category: data_science_analytics
+  aliases:
+  - data cleaning
+  - datacleaning
+  - dc
+  description: Practical knowledge and application of Data Cleaning.
+  market_demand_weight: 0.68
+- id: exploratory-data-analysis
+  canonical_name: Exploratory Data Analysis
+  category: data_science_analytics
+  aliases:
+  - exploratory data analysis
+  - exploratorydataanalysis
+  - eda
+  description: Practical knowledge and application of Exploratory Data Analysis.
+  market_demand_weight: 0.53
+- id: business-intelligence
+  canonical_name: Business Intelligence
+  category: data_science_analytics
+  aliases:
+  - business intelligence
+  - businessintelligence
+  - bi
+  description: Practical knowledge and application of Business Intelligence.
+  market_demand_weight: 0.88
+- id: data-storytelling
+  canonical_name: Data Storytelling
+  category: data_science_analytics
+  aliases:
+  - data storytelling
+  - datastorytelling
+  - ds
+  description: Practical knowledge and application of Data Storytelling.
+  market_demand_weight: 0.68
+- id: forecasting
+  canonical_name: Forecasting
+  category: data_science_analytics
+  aliases:
+  - forecasting
+  description: Practical knowledge and application of Forecasting.
+  market_demand_weight: 0.63
+- id: machine-learning
+  canonical_name: Machine Learning
+  category: machine_learning
+  aliases:
+  - machine learning
+  - machinelearning
+  - ml
+  - statistical learning
+  description: Practical knowledge and application of Machine Learning.
+  market_demand_weight: 0.68
+- id: deep-learning
+  canonical_name: Deep Learning
+  category: machine_learning
+  aliases:
+  - deep learning
+  - deeplearning
+  - dl
+  description: Practical knowledge and application of Deep Learning.
+  market_demand_weight: 0.87
+- id: supervised-learning
+  canonical_name: Supervised Learning
+  category: machine_learning
+  aliases:
+  - supervised learning
+  - supervisedlearning
+  - sl
+  description: Practical knowledge and application of Supervised Learning.
+  market_demand_weight: 0.56
+- id: unsupervised-learning
+  canonical_name: Unsupervised Learning
+  category: machine_learning
+  aliases:
+  - unsupervised learning
+  - unsupervisedlearning
+  - ul
+  description: Practical knowledge and application of Unsupervised Learning.
+  market_demand_weight: 0.63
+- id: reinforcement-learning
+  canonical_name: Reinforcement Learning
+  category: machine_learning
+  aliases:
+  - reinforcement learning
+  - reinforcementlearning
+  - rl
+  description: Practical knowledge and application of Reinforcement Learning.
+  market_demand_weight: 0.76
+- id: neural-networks
+  canonical_name: Neural Networks
+  category: machine_learning
+  aliases:
+  - neural networks
+  - neuralnetworks
+  - nn
+  description: Practical knowledge and application of Neural Networks.
+  market_demand_weight: 0.9
+- id: convolutional-neural-networks
+  canonical_name: Convolutional Neural Networks
+  category: machine_learning
+  aliases:
+  - convolutional neural networks
+  - convolutionalneuralnetworks
+  - cnn
+  description: Practical knowledge and application of Convolutional Neural Networks.
+  market_demand_weight: 0.71
+- id: recurrent-neural-networks
+  canonical_name: Recurrent Neural Networks
+  category: machine_learning
+  aliases:
+  - recurrent neural networks
+  - recurrentneuralnetworks
+  - rnn
+  description: Practical knowledge and application of Recurrent Neural Networks.
+  market_demand_weight: 0.76
+- id: transformers
+  canonical_name: Transformers
+  category: machine_learning
+  aliases:
+  - transformers
+  description: Practical knowledge and application of Transformers.
+  market_demand_weight: 0.98
+- id: natural-language-processing
+  canonical_name: Natural Language Processing
+  category: machine_learning
+  aliases:
+  - natural language processing
+  - naturallanguageprocessing
+  - nlp
+  - computational linguistics
+  - language processing
+  description: Practical knowledge and application of Natural Language Processing.
+  market_demand_weight: 0.65
+- id: computer-vision
+  canonical_name: Computer Vision
+  category: machine_learning
+  aliases:
+  - computer vision
+  - computervision
+  - cv
+  - image understanding
+  description: Practical knowledge and application of Computer Vision.
+  market_demand_weight: 0.93
+- id: recommendation-systems
+  canonical_name: Recommendation Systems
+  category: machine_learning
+  aliases:
+  - recommendation systems
+  - recommendationsystems
+  - rs
+  description: Practical knowledge and application of Recommendation Systems.
+  market_demand_weight: 0.65
+- id: information-retrieval
+  canonical_name: Information Retrieval
+  category: machine_learning
+  aliases:
+  - information retrieval
+  - informationretrieval
+  - ir
+  description: Practical knowledge and application of Information Retrieval.
+  market_demand_weight: 0.54
+- id: search-ranking
+  canonical_name: Search Ranking
+  category: machine_learning
+  aliases:
+  - search ranking
+  - searchranking
+  - sr
+  description: Practical knowledge and application of Search Ranking.
+  market_demand_weight: 0.91
+- id: model-evaluation
+  canonical_name: Model Evaluation
+  category: machine_learning
+  aliases:
+  - model evaluation
+  - modelevaluation
+  - me
+  description: Practical knowledge and application of Model Evaluation.
+  market_demand_weight: 0.49
+- id: model-selection
+  canonical_name: Model Selection
+  category: machine_learning
+  aliases:
+  - model selection
+  - modelselection
+  - ms
+  description: Practical knowledge and application of Model Selection.
+  market_demand_weight: 0.45
+- id: hyperparameter-tuning
+  canonical_name: Hyperparameter Tuning
+  category: machine_learning
+  aliases:
+  - hyperparameter tuning
+  - hyperparametertuning
+  - ht
+  description: Practical knowledge and application of Hyperparameter Tuning.
+  market_demand_weight: 0.64
+- id: scikit-learn
+  canonical_name: Scikit-learn
+  category: machine_learning
+  aliases:
+  - scikit-learn
+  description: Practical knowledge and application of Scikit-learn.
+  market_demand_weight: 0.57
+- id: pytorch
+  canonical_name: PyTorch
+  category: machine_learning
+  aliases:
+  - pytorch
+  description: Practical knowledge and application of PyTorch.
+  market_demand_weight: 0.52
+- id: tensorflow
+  canonical_name: TensorFlow
+  category: machine_learning
+  aliases:
+  - tensorflow
+  description: Practical knowledge and application of TensorFlow.
+  market_demand_weight: 0.52
+- id: xgboost
+  canonical_name: XGBoost
+  category: machine_learning
+  aliases:
+  - xgboost
+  description: Practical knowledge and application of XGBoost.
+  market_demand_weight: 0.49
+- id: lightgbm
+  canonical_name: LightGBM
+  category: machine_learning
+  aliases:
+  - lightgbm
+  description: Practical knowledge and application of LightGBM.
+  market_demand_weight: 0.66
+- id: mlflow
+  canonical_name: MLflow
+  category: machine_learning
+  aliases:
+  - mlflow
+  description: Practical knowledge and application of MLflow.
+  market_demand_weight: 0.97
+- id: model-serving
+  canonical_name: Model Serving
+  category: machine_learning
+  aliases:
+  - model serving
+  - modelserving
+  - ms
+  description: Practical knowledge and application of Model Serving.
+  market_demand_weight: 0.65
+- id: mlops
+  canonical_name: MLOps
+  category: machine_learning
+  aliases:
+  - mlops
+  description: Practical knowledge and application of MLOps.
+  market_demand_weight: 0.5
+- id: data
+  canonical_name: Data
+  category: machine_learning
+  aliases:
+  - data
+  description: Practical knowledge and application of Data.
+  market_demand_weight: 0.7
+- id: labeling
+  canonical_name: Labeling
+  category: machine_learning
+  aliases:
+  - labeling
+  description: Practical knowledge and application of Labeling.
+  market_demand_weight: 0.5
+- id: transfer
+  canonical_name: Transfer
+  category: machine_learning
+  aliases:
+  - transfer
+  description: Practical knowledge and application of Transfer.
+  market_demand_weight: 0.89
+- id: learning
+  canonical_name: Learning
+  category: machine_learning
+  aliases:
+  - learning
+  description: Practical knowledge and application of Learning.
+  market_demand_weight: 0.68
+- id: graph-neural-networks
+  canonical_name: Graph Neural Networks
+  category: machine_learning
+  aliases:
+  - graph neural networks
+  - graphneuralnetworks
+  - gnn
+  description: Practical knowledge and application of Graph Neural Networks.
+  market_demand_weight: 0.6
+- id: large-language-models
+  canonical_name: Large Language Models
+  category: generative_ai
+  aliases:
+  - large language models
+  - largelanguagemodels
+  - llm
+  - llms
+  - foundation models
+  description: Practical knowledge and application of Large Language Models.
+  market_demand_weight: 0.48
+- id: prompt-engineering
+  canonical_name: Prompt Engineering
+  category: generative_ai
+  aliases:
+  - prompt engineering
+  - promptengineering
+  - pe
+  description: Practical knowledge and application of Prompt Engineering.
+  market_demand_weight: 0.57
+- id: retrieval-augmented-generation
+  canonical_name: Retrieval-Augmented Generation
+  category: generative_ai
+  aliases:
+  - retrieval-augmented generation
+  - retrieval-augmentedgeneration
+  - rg
+  - rag
+  - retrieval augmented generation
+  description: Practical knowledge and application of Retrieval-Augmented Generation.
+  market_demand_weight: 0.51
+- id: vector-databases
+  canonical_name: Vector Databases
+  category: generative_ai
+  aliases:
+  - vector databases
+  - vectordatabases
+  - vd
+  description: Practical knowledge and application of Vector Databases.
+  market_demand_weight: 0.9
+- id: embeddings
+  canonical_name: Embeddings
+  category: generative_ai
+  aliases:
+  - embeddings
+  description: Practical knowledge and application of Embeddings.
+  market_demand_weight: 0.97
+- id: semantic-search
+  canonical_name: Semantic Search
+  category: generative_ai
+  aliases:
+  - semantic search
+  - semanticsearch
+  - ss
+  description: Practical knowledge and application of Semantic Search.
+  market_demand_weight: 0.87
+- id: ai-agents
+  canonical_name: AI Agents
+  category: generative_ai
+  aliases:
+  - ai agents
+  - aiagents
+  - aa
+  description: Practical knowledge and application of AI Agents.
+  market_demand_weight: 0.54
+- id: tool-calling
+  canonical_name: Tool Calling
+  category: generative_ai
+  aliases:
+  - tool calling
+  - toolcalling
+  - tc
+  description: Practical knowledge and application of Tool Calling.
+  market_demand_weight: 0.56
+- id: fine-tuning
+  canonical_name: Fine-Tuning
+  category: generative_ai
+  aliases:
+  - fine-tuning
+  description: Practical knowledge and application of Fine-Tuning.
+  market_demand_weight: 0.69
+- id: lora
+  canonical_name: LoRA
+  category: generative_ai
+  aliases:
+  - lora
+  description: Practical knowledge and application of LoRA.
+  market_demand_weight: 0.9
+- id: quantization
+  canonical_name: Quantization
+  category: generative_ai
+  aliases:
+  - quantization
+  description: Practical knowledge and application of Quantization.
+  market_demand_weight: 0.99
+- id: evaluation
+  canonical_name: Evaluation
+  category: generative_ai
+  aliases:
+  - evaluation
+  description: Practical knowledge and application of Evaluation.
+  market_demand_weight: 0.8
+- id: of
+  canonical_name: of
+  category: generative_ai
+  aliases:
+  - of
+  description: Practical knowledge and application of of.
+  market_demand_weight: 0.93
+- id: language
+  canonical_name: Language
+  category: generative_ai
+  aliases:
+  - language
+  description: Practical knowledge and application of Language.
+  market_demand_weight: 0.56
+- id: models
+  canonical_name: Models
+  category: generative_ai
+  aliases:
+  - models
+  description: Practical knowledge and application of Models.
+  market_demand_weight: 0.84
+- id: guardrails
+  canonical_name: Guardrails
+  category: generative_ai
+  aliases:
+  - guardrails
+  description: Practical knowledge and application of Guardrails.
+  market_demand_weight: 0.7
+- id: responsible-ai
+  canonical_name: Responsible AI
+  category: generative_ai
+  aliases:
+  - responsible ai
+  - responsibleai
+  - ra
+  description: Practical knowledge and application of Responsible AI.
+  market_demand_weight: 0.52
+- id: multimodal-ai
+  canonical_name: Multimodal AI
+  category: generative_ai
+  aliases:
+  - multimodal ai
+  - multimodalai
+  - ma
+  description: Practical knowledge and application of Multimodal AI.
+  market_demand_weight: 0.52
+- id: speech-recognition
+  canonical_name: Speech Recognition
+  category: generative_ai
+  aliases:
+  - speech recognition
+  - speechrecognition
+  - sr
+  description: Practical knowledge and application of Speech Recognition.
+  market_demand_weight: 0.92
+- id: text-to-speech
+  canonical_name: Text-to-Speech
+  category: generative_ai
+  aliases:
+  - text-to-speech
+  description: Practical knowledge and application of Text-to-Speech.
+  market_demand_weight: 0.72
+- id: document-parsing
+  canonical_name: Document Parsing
+  category: generative_ai
+  aliases:
+  - document parsing
+  - documentparsing
+  - dp
+  description: Practical knowledge and application of Document Parsing.
+  market_demand_weight: 0.59
+- id: ocr
+  canonical_name: OCR
+  category: generative_ai
+  aliases:
+  - ocr
+  description: Practical knowledge and application of OCR.
+  market_demand_weight: 0.94
+- id: langchain
+  canonical_name: LangChain
+  category: generative_ai
+  aliases:
+  - langchain
+  description: Practical knowledge and application of LangChain.
+  market_demand_weight: 0.98
+- id: langgraph
+  canonical_name: LangGraph
+  category: generative_ai
+  aliases:
+  - langgraph
+  description: Practical knowledge and application of LangGraph.
+  market_demand_weight: 0.58
+- id: litellm
+  canonical_name: LiteLLM
+  category: generative_ai
+  aliases:
+  - litellm
+  description: Practical knowledge and application of LiteLLM.
+  market_demand_weight: 0.85
+- id: hugging
+  canonical_name: Hugging
+  category: generative_ai
+  aliases:
+  - hugging
+  description: Practical knowledge and application of Hugging.
+  market_demand_weight: 0.75
+- id: face
+  canonical_name: Face
+  category: generative_ai
+  aliases:
+  - face
+  description: Practical knowledge and application of Face.
+  market_demand_weight: 0.59
+- id: diffusion-models
+  canonical_name: Diffusion Models
+  category: generative_ai
+  aliases:
+  - diffusion models
+  - diffusionmodels
+  - dm
+  description: Practical knowledge and application of Diffusion Models.
+  market_demand_weight: 0.51
+- id: application-security
+  canonical_name: Application Security
+  category: security_networking
+  aliases:
+  - application security
+  - applicationsecurity
+  - as
+  description: Practical knowledge and application of Application Security.
+  market_demand_weight: 0.6
+- id: threat-modeling
+  canonical_name: Threat Modeling
+  category: security_networking
+  aliases:
+  - threat modeling
+  - threatmodeling
+  - tm
+  description: Practical knowledge and application of Threat Modeling.
+  market_demand_weight: 0.45
+- id: secure-coding
+  canonical_name: Secure Coding
+  category: security_networking
+  aliases:
+  - secure coding
+  - securecoding
+  - sc
+  description: Practical knowledge and application of Secure Coding.
+  market_demand_weight: 0.45
+- id: vulnerability-management
+  canonical_name: Vulnerability Management
+  category: security_networking
+  aliases:
+  - vulnerability management
+  - vulnerabilitymanagement
+  - vm
+  description: Practical knowledge and application of Vulnerability Management.
+  market_demand_weight: 0.86
+- id: penetration-testing
+  canonical_name: Penetration Testing
+  category: security_networking
+  aliases:
+  - penetration testing
+  - penetrationtesting
+  - pt
+  description: Practical knowledge and application of Penetration Testing.
+  market_demand_weight: 0.69
+- id: owasp-top-10
+  canonical_name: OWASP Top 10
+  category: security_networking
+  aliases:
+  - owasp top 10
+  - owasptop10
+  - ot1
+  description: Practical knowledge and application of OWASP Top 10.
+  market_demand_weight: 0.8
+- id: web-security
+  canonical_name: Web Security
+  category: security_networking
+  aliases:
+  - web security
+  - websecurity
+  - ws
+  description: Practical knowledge and application of Web Security.
+  market_demand_weight: 0.86
+- id: network-security
+  canonical_name: Network Security
+  category: security_networking
+  aliases:
+  - network security
+  - networksecurity
+  - ns
+  description: Practical knowledge and application of Network Security.
+  market_demand_weight: 0.51
+- id: identity-and-access-management
+  canonical_name: Identity and Access Management
+  category: security_networking
+  aliases:
+  - identity and access management
+  - identityandaccessmanagement
+  - iaam
+  description: Practical knowledge and application of Identity and Access Management.
+  market_demand_weight: 0.7
+- id: public-key-infrastructure
+  canonical_name: Public Key Infrastructure
+  category: security_networking
+  aliases:
+  - public key infrastructure
+  - publickeyinfrastructure
+  - pki
+  description: Practical knowledge and application of Public Key Infrastructure.
+  market_demand_weight: 0.55
+- id: tls
+  canonical_name: TLS
+  category: security_networking
+  aliases:
+  - tls
+  description: Practical knowledge and application of TLS.
+  market_demand_weight: 0.54
+- id: security-auditing
+  canonical_name: Security Auditing
+  category: security_networking
+  aliases:
+  - security auditing
+  - securityauditing
+  - sa
+  description: Practical knowledge and application of Security Auditing.
+  market_demand_weight: 0.71
+- id: incident-response
+  canonical_name: Incident Response
+  category: security_networking
+  aliases:
+  - incident response
+  - incidentresponse
+  - ir
+  description: Practical knowledge and application of Incident Response.
+  market_demand_weight: 0.55
+- id: digital-forensics
+  canonical_name: Digital Forensics
+  category: security_networking
+  aliases:
+  - digital forensics
+  - digitalforensics
+  - df
+  description: Practical knowledge and application of Digital Forensics.
+  market_demand_weight: 0.91
+- id: security-operations
+  canonical_name: Security Operations
+  category: security_networking
+  aliases:
+  - security operations
+  - securityoperations
+  - so
+  description: Practical knowledge and application of Security Operations.
+  market_demand_weight: 0.9
+- id: zero-trust
+  canonical_name: Zero Trust
+  category: security_networking
+  aliases:
+  - zero trust
+  - zerotrust
+  - zt
+  description: Practical knowledge and application of Zero Trust.
+  market_demand_weight: 0.71
+- id: privacy-engineering
+  canonical_name: Privacy Engineering
+  category: security_networking
+  aliases:
+  - privacy engineering
+  - privacyengineering
+  - pe
+  description: Practical knowledge and application of Privacy Engineering.
+  market_demand_weight: 0.94
+- id: data-protection
+  canonical_name: Data Protection
+  category: security_networking
+  aliases:
+  - data protection
+  - dataprotection
+  - dp
+  description: Practical knowledge and application of Data Protection.
+  market_demand_weight: 0.55
+- id: malware-analysis
+  canonical_name: Malware Analysis
+  category: security_networking
+  aliases:
+  - malware analysis
+  - malwareanalysis
+  - ma
+  description: Practical knowledge and application of Malware Analysis.
+  market_demand_weight: 0.53
+- id: static-analysis
+  canonical_name: Static Analysis
+  category: security_networking
+  aliases:
+  - static analysis
+  - staticanalysis
+  - sa
+  description: Practical knowledge and application of Static Analysis.
+  market_demand_weight: 0.66
+- id: dynamic-analysis
+  canonical_name: Dynamic Analysis
+  category: security_networking
+  aliases:
+  - dynamic analysis
+  - dynamicanalysis
+  - da
+  description: Practical knowledge and application of Dynamic Analysis.
+  market_demand_weight: 0.49
+- id: software-supply-chain-security
+  canonical_name: Software Supply Chain Security
+  category: security_networking
+  aliases:
+  - software supply chain security
+  - softwaresupplychainsecurity
+  - sscs
+  description: Practical knowledge and application of Software Supply Chain Security.
+  market_demand_weight: 0.63
+- id: sast
+  canonical_name: SAST
+  category: security_networking
+  aliases:
+  - sast
+  description: Practical knowledge and application of SAST.
+  market_demand_weight: 0.48
+- id: dast
+  canonical_name: DAST
+  category: security_networking
+  aliases:
+  - dast
+  description: Practical knowledge and application of DAST.
+  market_demand_weight: 0.88
+- id: secrets-scanning
+  canonical_name: Secrets Scanning
+  category: security_networking
+  aliases:
+  - secrets scanning
+  - secretsscanning
+  - ss
+  description: Practical knowledge and application of Secrets Scanning.
+  market_demand_weight: 0.5
+- id: firewall-configuration
+  canonical_name: Firewall Configuration
+  category: security_networking
+  aliases:
+  - firewall configuration
+  - firewallconfiguration
+  - fc
+  description: Practical knowledge and application of Firewall Configuration.
+  market_demand_weight: 0.89
+- id: android-development
+  canonical_name: Android Development
+  category: mobile_embedded
+  aliases:
+  - android development
+  - androiddevelopment
+  - ad
+  description: Practical knowledge and application of Android Development.
+  market_demand_weight: 0.89
+- id: ios-development
+  canonical_name: iOS Development
+  category: mobile_embedded
+  aliases:
+  - ios development
+  - iosdevelopment
+  - id
+  description: Practical knowledge and application of iOS Development.
+  market_demand_weight: 0.68
+- id: react-native
+  canonical_name: React Native
+  category: mobile_embedded
+  aliases:
+  - react native
+  - reactnative
+  - rn
+  description: Practical knowledge and application of React Native.
+  market_demand_weight: 0.54
+- id: flutter
+  canonical_name: Flutter
+  category: mobile_embedded
+  aliases:
+  - flutter
+  description: Practical knowledge and application of Flutter.
+  market_demand_weight: 0.49
+- id: swiftui
+  canonical_name: SwiftUI
+  category: mobile_embedded
+  aliases:
+  - swiftui
+  description: Practical knowledge and application of SwiftUI.
+  market_demand_weight: 0.54
+- id: jetpack-compose
+  canonical_name: Jetpack Compose
+  category: mobile_embedded
+  aliases:
+  - jetpack compose
+  - jetpackcompose
+  - jc
+  description: Practical knowledge and application of Jetpack Compose.
+  market_demand_weight: 0.46
+- id: mobile-ux
+  canonical_name: Mobile UX
+  category: mobile_embedded
+  aliases:
+  - mobile ux
+  - mobileux
+  - mu
+  description: Practical knowledge and application of Mobile UX.
+  market_demand_weight: 0.79
+- id: mobile-app-security
+  canonical_name: Mobile App Security
+  category: mobile_embedded
+  aliases:
+  - mobile app security
+  - mobileappsecurity
+  - mas
+  description: Practical knowledge and application of Mobile App Security.
+  market_demand_weight: 0.51
+- id: embedded-systems
+  canonical_name: Embedded Systems
+  category: mobile_embedded
+  aliases:
+  - embedded systems
+  - embeddedsystems
+  - es
+  description: Practical knowledge and application of Embedded Systems.
+  market_demand_weight: 0.97
+- id: firmware-development
+  canonical_name: Firmware Development
+  category: mobile_embedded
+  aliases:
+  - firmware development
+  - firmwaredevelopment
+  - fd
+  description: Practical knowledge and application of Firmware Development.
+  market_demand_weight: 0.48
+- id: internet-of-things
+  canonical_name: Internet of Things
+  category: mobile_embedded
+  aliases:
+  - internet of things
+  - internetofthings
+  - iot
+  description: Practical knowledge and application of Internet of Things.
+  market_demand_weight: 0.59
+- id: microcontrollers
+  canonical_name: Microcontrollers
+  category: mobile_embedded
+  aliases:
+  - microcontrollers
+  description: Practical knowledge and application of Microcontrollers.
+  market_demand_weight: 0.85
+- id: arduino
+  canonical_name: Arduino
+  category: mobile_embedded
+  aliases:
+  - arduino
+  description: Practical knowledge and application of Arduino.
+  market_demand_weight: 0.84
+- id: raspberry
+  canonical_name: Raspberry
+  category: mobile_embedded
+  aliases:
+  - raspberry
+  description: Practical knowledge and application of Raspberry.
+  market_demand_weight: 0.96
+- id: pi
+  canonical_name: Pi
+  category: mobile_embedded
+  aliases:
+  - pi
+  description: Practical knowledge and application of Pi.
+  market_demand_weight: 0.97
+- id: real-time-systems
+  canonical_name: Real-Time Systems
+  category: mobile_embedded
+  aliases:
+  - real-time systems
+  - real-timesystems
+  - rs
+  description: Practical knowledge and application of Real-Time Systems.
+  market_demand_weight: 0.73
+- id: robotics
+  canonical_name: Robotics
+  category: mobile_embedded
+  aliases:
+  - robotics
+  description: Practical knowledge and application of Robotics.
+  market_demand_weight: 0.89
+- id: edge-computing
+  canonical_name: Edge Computing
+  category: mobile_embedded
+  aliases:
+  - edge computing
+  - edgecomputing
+  - ec
+  description: Practical knowledge and application of Edge Computing.
+  market_demand_weight: 0.47
+- id: bluetooth-low-energy
+  canonical_name: Bluetooth Low Energy
+  category: mobile_embedded
+  aliases:
+  - bluetooth low energy
+  - bluetoothlowenergy
+  - ble
+  description: Practical knowledge and application of Bluetooth Low Energy.
+  market_demand_weight: 0.7
+- id: unit-testing
+  canonical_name: Unit Testing
+  category: quality_tooling
+  aliases:
+  - unit testing
+  - unittesting
+  - ut
+  description: Practical knowledge and application of Unit Testing.
+  market_demand_weight: 0.94
+- id: integration-testing
+  canonical_name: Integration Testing
+  category: quality_tooling
+  aliases:
+  - integration testing
+  - integrationtesting
+  - it
+  description: Practical knowledge and application of Integration Testing.
+  market_demand_weight: 0.64
+- id: end-to-end-testing
+  canonical_name: End-to-End Testing
+  category: quality_tooling
+  aliases:
+  - end-to-end testing
+  - end-to-endtesting
+  - et
+  description: Practical knowledge and application of End-to-End Testing.
+  market_demand_weight: 0.9
+- id: property-based-testing
+  canonical_name: Property-Based Testing
+  category: quality_tooling
+  aliases:
+  - property-based testing
+  - property-basedtesting
+  - pt
+  description: Practical knowledge and application of Property-Based Testing.
+  market_demand_weight: 0.58
+- id: mutation-testing
+  canonical_name: Mutation Testing
+  category: quality_tooling
+  aliases:
+  - mutation testing
+  - mutationtesting
+  - mt
+  description: Practical knowledge and application of Mutation Testing.
+  market_demand_weight: 0.87
+- id: test-driven-development
+  canonical_name: Test-Driven Development
+  category: quality_tooling
+  aliases:
+  - test-driven development
+  - test-drivendevelopment
+  - td
+  description: Practical knowledge and application of Test-Driven Development.
+  market_demand_weight: 0.53
+- id: behavior-driven-development
+  canonical_name: Behavior-Driven Development
+  category: quality_tooling
+  aliases:
+  - behavior-driven development
+  - behavior-drivendevelopment
+  - bd
+  description: Practical knowledge and application of Behavior-Driven Development.
+  market_demand_weight: 0.68
+- id: pytest
+  canonical_name: Pytest
+  category: quality_tooling
+  aliases:
+  - pytest
+  description: Practical knowledge and application of Pytest.
+  market_demand_weight: 0.66
+- id: jest
+  canonical_name: Jest
+  category: quality_tooling
+  aliases:
+  - jest
+  description: Practical knowledge and application of Jest.
+  market_demand_weight: 0.98
+- id: vitest
+  canonical_name: Vitest
+  category: quality_tooling
+  aliases:
+  - vitest
+  description: Practical knowledge and application of Vitest.
+  market_demand_weight: 0.56
+- id: playwright
+  canonical_name: Playwright
+  category: quality_tooling
+  aliases:
+  - playwright
+  description: Practical knowledge and application of Playwright.
+  market_demand_weight: 0.99
+- id: cypress
+  canonical_name: Cypress
+  category: quality_tooling
+  aliases:
+  - cypress
+  description: Practical knowledge and application of Cypress.
+  market_demand_weight: 0.52
+- id: selenium
+  canonical_name: Selenium
+  category: quality_tooling
+  aliases:
+  - selenium
+  description: Practical knowledge and application of Selenium.
+  market_demand_weight: 0.86
+- id: contract
+  canonical_name: Contract
+  category: quality_tooling
+  aliases:
+  - contract
+  description: Practical knowledge and application of Contract.
+  market_demand_weight: 0.82
+- id: load
+  canonical_name: Load
+  category: quality_tooling
+  aliases:
+  - load
+  description: Practical knowledge and application of Load.
+  market_demand_weight: 0.76
+- id: chaos-engineering
+  canonical_name: Chaos Engineering
+  category: quality_tooling
+  aliases:
+  - chaos engineering
+  - chaosengineering
+  - ce
+  description: Practical knowledge and application of Chaos Engineering.
+  market_demand_weight: 0.74
+- id: test-automation
+  canonical_name: Test Automation
+  category: quality_tooling
+  aliases:
+  - test automation
+  - testautomation
+  - ta
+  description: Practical knowledge and application of Test Automation.
+  market_demand_weight: 0.87
+- id: debugging
+  canonical_name: Debugging
+  category: quality_tooling
+  aliases:
+  - debugging
+  description: Practical knowledge and application of Debugging.
+  market_demand_weight: 0.5
+- id: profiling
+  canonical_name: Profiling
+  category: quality_tooling
+  aliases:
+  - profiling
+  description: Practical knowledge and application of Profiling.
+  market_demand_weight: 0.8
+- id: static-type-checking
+  canonical_name: Static Type Checking
+  category: quality_tooling
+  aliases:
+  - static type checking
+  - statictypechecking
+  - stc
+  description: Practical knowledge and application of Static Type Checking.
+  market_demand_weight: 0.81
+- id: mypy
+  canonical_name: Mypy
+  category: quality_tooling
+  aliases:
+  - mypy
+  description: Practical knowledge and application of Mypy.
+  market_demand_weight: 0.68
+- id: ruff
+  canonical_name: Ruff
+  category: quality_tooling
+  aliases:
+  - ruff
+  description: Practical knowledge and application of Ruff.
+  market_demand_weight: 0.95
+- id: eslint
+  canonical_name: ESLint
+  category: quality_tooling
+  aliases:
+  - eslint
+  description: Practical knowledge and application of ESLint.
+  market_demand_weight: 0.95
+- id: prettier
+  canonical_name: Prettier
+  category: quality_tooling
+  aliases:
+  - prettier
+  description: Practical knowledge and application of Prettier.
+  market_demand_weight: 0.99
+- id: technical-leadership
+  canonical_name: Technical Leadership
+  category: product_communication
+  aliases:
+  - technical leadership
+  - technicalleadership
+  - tl
+  description: Practical knowledge and application of Technical Leadership.
+  market_demand_weight: 0.51
+- id: mentoring
+  canonical_name: Mentoring
+  category: product_communication
+  aliases:
+  - mentoring
+  description: Practical knowledge and application of Mentoring.
+  market_demand_weight: 0.89
+- id: stakeholder-communication
+  canonical_name: Stakeholder Communication
+  category: product_communication
+  aliases:
+  - stakeholder communication
+  - stakeholdercommunication
+  - sc
+  description: Practical knowledge and application of Stakeholder Communication.
+  market_demand_weight: 0.77
+- id: product-thinking
+  canonical_name: Product Thinking
+  category: product_communication
+  aliases:
+  - product thinking
+  - productthinking
+  - pt
+  description: Practical knowledge and application of Product Thinking.
+  market_demand_weight: 0.69
+- id: project-management
+  canonical_name: Project Management
+  category: product_communication
+  aliases:
+  - project management
+  - projectmanagement
+  - pm
+  description: Practical knowledge and application of Project Management.
+  market_demand_weight: 0.87
+- id: prioritization
+  canonical_name: Prioritization
+  category: product_communication
+  aliases:
+  - prioritization
+  description: Practical knowledge and application of Prioritization.
+  market_demand_weight: 0.48
+- id: estimation
+  canonical_name: Estimation
+  category: product_communication
+  aliases:
+  - estimation
+  description: Practical knowledge and application of Estimation.
+  market_demand_weight: 0.85
+- id: problem-solving
+  canonical_name: Problem Solving
+  category: product_communication
+  aliases:
+  - problem solving
+  - problemsolving
+  - ps
+  description: Practical knowledge and application of Problem Solving.
+  market_demand_weight: 0.73
+- id: collaboration
+  canonical_name: Collaboration
+  category: product_communication
+  aliases:
+  - collaboration
+  description: Practical knowledge and application of Collaboration.
+  market_demand_weight: 0.55
+- id: written-communication
+  canonical_name: Written Communication
+  category: product_communication
+  aliases:
+  - written communication
+  - writtencommunication
+  - wc
+  description: Practical knowledge and application of Written Communication.
+  market_demand_weight: 0.69
+- id: presentation-skills
+  canonical_name: Presentation Skills
+  category: product_communication
+  aliases:
+  - presentation skills
+  - presentationskills
+  - ps
+  description: Practical knowledge and application of Presentation Skills.
+  market_demand_weight: 0.76
+- id: user-research
+  canonical_name: User Research
+  category: product_communication
+  aliases:
+  - user research
+  - userresearch
+  - ur
+  description: Practical knowledge and application of User Research.
+  market_demand_weight: 0.62
+- id: product-analytics
+  canonical_name: Product Analytics
+  category: product_communication
+  aliases:
+  - product analytics
+  - productanalytics
+  - pa
+  description: Practical knowledge and application of Product Analytics.
+  market_demand_weight: 0.67
+- id: ux-research
+  canonical_name: UX Research
+  category: product_communication
+  aliases:
+  - ux research
+  - uxresearch
+  - ur
+  description: Practical knowledge and application of UX Research.
+  market_demand_weight: 0.72
+- id: human-computer-interaction
+  canonical_name: Human-Computer Interaction
+  category: product_communication
+  aliases:
+  - human-computer interaction
+  - human-computerinteraction
+  - hi
+  description: Practical knowledge and application of Human-Computer Interaction.
+  market_demand_weight: 0.95
+- id: ethics-in-technology
+  canonical_name: Ethics in Technology
+  category: product_communication
+  aliases:
+  - ethics in technology
+  - ethicsintechnology
+  - eit
+  description: Practical knowledge and application of Ethics in Technology.
+  market_demand_weight: 0.94
+- id: accessibility-engineering
+  canonical_name: Accessibility Engineering
+  category: product_communication
+  aliases:
+  - accessibility engineering
+  - accessibilityengineering
+  - ae
+  description: Practical knowledge and application of Accessibility Engineering.
+  market_demand_weight: 0.52

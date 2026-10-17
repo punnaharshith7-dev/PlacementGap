@@ -1,0 +1,559 @@
+{
+  "provenance": "synthetic seeded reference labels for offline bootstrap; replace with blinded human labels before claiming human calibration",
+  "rubric_versions": {
+    "success": "success.v1",
+    "groundedness": "groundedness.v1"
+  },
+  "labels": [
+    {
+      "case_id": "judge-cal-01",
+      "success": {
+        "reference": false,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": false,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-02",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-03",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-04",
+      "success": {
+        "reference": false,
+        "judge": false
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-05",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": false,
+        "judge": false
+      }
+    },
+    {
+      "case_id": "judge-cal-06",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-07",
+      "success": {
+        "reference": false,
+        "judge": false
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-08",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-09",
+      "success": {
+        "reference": true,
+        "judge": false
+      },
+      "groundedness": {
+        "reference": false,
+        "judge": false
+      }
+    },
+    {
+      "case_id": "judge-cal-10",
+      "success": {
+        "reference": false,
+        "judge": false
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-11",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": false
+      }
+    },
+    {
+      "case_id": "judge-cal-12",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-13",
+      "success": {
+        "reference": false,
+        "judge": false
+      },
+      "groundedness": {
+        "reference": false,
+        "judge": false
+      }
+    },
+    {
+      "case_id": "judge-cal-14",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-15",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-16",
+      "success": {
+        "reference": false,
+        "judge": false
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-17",
+      "success": {
+        "reference": true,
+        "judge": false
+      },
+      "groundedness": {
+        "reference": false,
+        "judge": false
+      }
+    },
+    {
+      "case_id": "judge-cal-18",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-19",
+      "success": {
+        "reference": false,
+        "judge": false
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-20",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-21",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": false,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-22",
+      "success": {
+        "reference": false,
+        "judge": false
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-23",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-24",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-25",
+      "success": {
+        "reference": false,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": false,
+        "judge": false
+      }
+    },
+    {
+      "case_id": "judge-cal-26",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-27",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-28",
+      "success": {
+        "reference": false,
+        "judge": false
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-29",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": false,
+        "judge": false
+      }
+    },
+    {
+      "case_id": "judge-cal-30",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-31",
+      "success": {
+        "reference": false,
+        "judge": false
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": false
+      }
+    },
+    {
+      "case_id": "judge-cal-32",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-33",
+      "success": {
+        "reference": true,
+        "judge": false
+      },
+      "groundedness": {
+        "reference": false,
+        "judge": false
+      }
+    },
+    {
+      "case_id": "judge-cal-34",
+      "success": {
+        "reference": false,
+        "judge": false
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-35",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-36",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-37",
+      "success": {
+        "reference": false,
+        "judge": false
+      },
+      "groundedness": {
+        "reference": false,
+        "judge": false
+      }
+    },
+    {
+      "case_id": "judge-cal-38",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-39",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-40",
+      "success": {
+        "reference": false,
+        "judge": false
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-41",
+      "success": {
+        "reference": true,
+        "judge": false
+      },
+      "groundedness": {
+        "reference": false,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-42",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-43",
+      "success": {
+        "reference": false,
+        "judge": false
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-44",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-45",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": false,
+        "judge": false
+      }
+    },
+    {
+      "case_id": "judge-cal-46",
+      "success": {
+        "reference": false,
+        "judge": false
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-47",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-48",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    },
+    {
+      "case_id": "judge-cal-49",
+      "success": {
+        "reference": false,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": false,
+        "judge": false
+      }
+    },
+    {
+      "case_id": "judge-cal-50",
+      "success": {
+        "reference": true,
+        "judge": true
+      },
+      "groundedness": {
+        "reference": true,
+        "judge": true
+      }
+    }
+  ]
+}

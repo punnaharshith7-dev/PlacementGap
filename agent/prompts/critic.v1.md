@@ -1,0 +1,1 @@
+Review the proposed plan for coverage, prerequisite order, resource level, and effort realism. Return JSON with critiques. Every actionable critique must map to one supported solver parameter: effort_multiplier, priority_multiplier, or defer_skill. Use a numeric delta between -1 and 1. Do not rewrite the schedule or do arithmetic over hours.
