@@ -3,15 +3,11 @@ services:
     name: placementgap-app
     runtime: docker
     region: singapore
-    plan: 0.5c-512mb
+    plan: free
     dockerfilePath: ./Dockerfile
     dockerContext: .
     healthCheckPath: /health
     autoDeployTrigger: commit
-    disk:
-      name: placementgap-data
-      mountPath: /var/data
-      sizeGB: 1
     envVars:
       - key: APP_ENV
         value: production
@@ -23,24 +19,10 @@ services:
         value: "1"
       - key: PLACEMENTGAP_USE_LLM
         value: "0"
-      - key: PLACEMENTGAP_SQLITE_PATH
-        value: /var/data/placementgap.sqlite3
-      - key: PLACEMENTGAP_RUN_DB
-        value: /var/data/runs.sqlite3
-      - key: PLACEMENTGAP_RUN_FILES
-        value: /var/data/runs
-      - key: PLACEMENTGAP_AUTH_DB
-        value: /var/data/auth.sqlite3
-      - key: PLACEMENTGAP_AUTH_SECRET_FILE
-        value: /var/data/auth.secret
-      - key: PLACEMENTGAP_FETCH_CACHE
-        value: /var/data/fetch_cache.sqlite3
       - key: AUTH_SECRET
         generateValue: true
       - key: DATABASE_URL
-        fromDatabase:
-          name: placementgap-db
-          property: connectionString
+        sync: false
       - key: FRONTEND_URL
         fromService:
           type: web
@@ -92,12 +74,3 @@ services:
         sync: false
       - key: GITHUB_CLIENT_SECRET
         sync: false
-
-databases:
-  - name: placementgap-db
-    databaseName: placementgap
-    plan: 0.1c-256mb
-    region: singapore
-    postgresMajorVersion: "16"
-    diskSizeGB: 1
-    ipAllowList: []

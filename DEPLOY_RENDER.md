@@ -2,21 +2,20 @@
 
 This Blueprint builds the React app into the FastAPI image and serves both from one HTTPS origin. It also provisions a private Render Postgres database and persistent disk for authentication, run records, caches, and reports. Keeping the UI and API on one origin keeps OAuth callbacks and session cookies aligned.
 
-## Before creating resources
+## Completely Free Deployment
 
-The Blueprint uses paid compute, a 1 GB persistent disk, and paid Postgres so the app stays awake and its data survives redeploys. Render shows the plan and monthly estimate before you apply the Blueprint. Review that total before confirming creation.
+This Blueprint runs on Render's **Free Web Service** tier ($0/month) and connects to your free **Neon.tech** PostgreSQL database with `pgvector`. No paid persistent disks or paid Render databases are required.
 
 The initial configuration uses fixture-backed job data and disables paid LLM calls, so the app can start without an AI provider key. OAuth and email OTP require the provider and SMTP values described below.
 
 ## Create the Render Blueprint
 
-1. Push the project to the GitHub branch you want Render to deploy. The repository must contain `render.yaml` at its root.
-2. In Render, choose **New + → Blueprint** and connect the `PlacementGap` repository.
-3. Select the intended branch and inspect the resources from `render.yaml`.
-4. Enter SMTP and OAuth credentials in Render's secret fields, or add them under the web service's **Environment** page after creation. Keep them in Render; do not put them in Git or this repository.
-5. Review the paid resource estimate and apply only when you are ready to create the resources.
-
-Render builds the root `Dockerfile`, creates PostgreSQL 16 with public IP access disabled, generates `AUTH_SECRET`, mounts persistent storage at `/var/data`, and serves the app at its public HTTPS URL.
+1. Push the project to GitHub (`origin main`).
+2. In Render, choose **New + → Blueprint** (or **New + → Web Service**) and connect the `PlacementGap` repository.
+3. Review the resources from `render.yaml` — the estimated monthly cost will be **$0.00 / month (Free)**.
+4. Set the `DATABASE_URL` environment variable to your free Neon PostgreSQL connection string.
+5. Enter your SMTP and OAuth credentials in Render's secret fields if desired.
+6. Click **Apply** to deploy! Render will build the container from `Dockerfile` and serve both frontend and backend on your assigned Render HTTPS URL.
 
 ## Finish OAuth setup
 
