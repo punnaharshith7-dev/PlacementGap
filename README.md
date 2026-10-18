@@ -1,3 +1,13 @@
+---
+title: PlacementGap
+emoji: 🎓
+colorFrom: indigo
+colorTo: blue
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # PlacementGap
 
 PlacementGap compares a student's transcript, resume, and project record with one specific job description. It returns evidence-backed skill gaps, ranks them deterministically, and builds a prerequisite-ordered plan that fits the stated study budget. Every extracted fact carries a source document id, character range, and extractor confidence.

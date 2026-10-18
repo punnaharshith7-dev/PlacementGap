@@ -3,10 +3,14 @@ from __future__ import annotations
 import asyncio
 import logging
 import os
+import sys
 import uuid
 from collections.abc import AsyncIterator
 from contextlib import asynccontextmanager
 from pathlib import Path
+
+if sys.platform == "win32":
+    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
@@ -98,7 +102,7 @@ app.include_router(auth_router)
 app.include_router(workspace_router)
 
 
-web_dist_value = os.getenv("PLACEMENTGAP_WEB_DIST")
+web_dist_value = os.getenv("PLACEMENTGAP_WEB_DIST", "/opt/placementgap/web/dist")
 if web_dist_value:
     web_dist = Path(web_dist_value).resolve()
     index_file = web_dist / "index.html"

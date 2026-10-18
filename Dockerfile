@@ -10,7 +10,9 @@ FROM python:3.11-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
-    PIP_NO_CACHE_DIR=1
+    PIP_NO_CACHE_DIR=1 \
+    PLACEMENTGAP_WEB_DIST=/opt/placementgap/web/dist \
+    PORT=7860
 
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends tesseract-ocr libglib2.0-0 libgomp1 \
@@ -19,6 +21,6 @@ COPY requirements.txt ./requirements.txt
 RUN python -m pip install --upgrade pip && pip install -r requirements.txt
 COPY . .
 COPY --from=web-build /src/web/dist /opt/placementgap/web/dist
-RUN mkdir -p /app/data /app/evals/reports
-EXPOSE 8000
-CMD ["sh", "-c", "exec uvicorn api.main:app --host 0.0.0.0 --port ${PORT:-8000}"]
+RUN mkdir -p /app/data /app/evals/reports && chmod -R 777 /app/data /app/evals/reports
+EXPOSE 7860 8000
+CMD ["sh", "-c", "exec uvicorn api.main:app --host 0.0.0.0 --port ${PORT:-7860}"]
