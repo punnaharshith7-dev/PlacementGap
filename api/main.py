@@ -6,11 +6,12 @@ import os
 import uuid
 from collections.abc import AsyncIterator
 from contextlib import asynccontextmanager
+from pathlib import Path
 
-from fastapi import FastAPI, Request
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from starlette.middleware.base import RequestResponseEndpoint
-from starlette.responses import Response
+from starlette.responses import FileResponse, Response
 
 from agent.graph import PostgresCheckpointRuntime, create_graph
 from agent.observability import configure_telemetry
@@ -95,3 +96,35 @@ async def health() -> dict[str, object]:
 app.include_router(router)
 app.include_router(auth_router)
 app.include_router(workspace_router)
+
+
+web_dist_value = os.getenv("PLACEMENTGAP_WEB_DIST")
+if web_dist_value:
+    web_dist = Path(web_dist_value).resolve()
+    index_file = web_dist / "index.html"
+    if index_file.is_file():
+        @app.get("/{asset_path:path}", include_in_schema=False)
+        async def serve_web_app(asset_path: str) -> FileResponse:
+            requested_file = (web_dist / asset_path).resolve()
+            if not requested_file.is_relative_to(web_dist):
+                raise HTTPException(status_code=404, detail="Not found")
+            if requested_file.is_file():
+                return FileResponse(requested_file)
+
+            # Keep unknown API URLs as 404s instead of returning the SPA shell.
+            first_segment = asset_path.partition("/")[0]
+            api_segments = {
+                "auth",
+                "docs",
+                "evals",
+                "health",
+                "openapi.json",
+                "redoc",
+                "runs",
+                "workspace",
+            }
+            if first_segment in api_segments and asset_path.rstrip("/") != "auth/callback":
+                raise HTTPException(status_code=404, detail="Not found")
+            if Path(asset_path).suffix:
+                raise HTTPException(status_code=404, detail="Not found")
+            return FileResponse(index_file)

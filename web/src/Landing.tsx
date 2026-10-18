@@ -1,3 +1,5 @@
+import TactileAction from './TactileAction'
+
 type LandingProps = {
   onSignIn: () => void
   onGetStarted: () => void
@@ -52,7 +54,7 @@ export default function Landing({ onSignIn, onGetStarted }: LandingProps) {
       <nav className="public-links" aria-label="Main navigation">
         <a href="#how-it-works">How it works</a><a href="#inside">What you get</a><a href="#faq">FAQ</a>
       </nav>
-      <div className="public-actions"><button className="text-action" onClick={onSignIn}>Sign in</button><button className="pill-action dark" onClick={onGetStarted}>Get started <span>↗</span></button></div>
+      <div className="public-actions"><TactileAction size="micro" onClick={onSignIn}>Sign in</TactileAction><TactileAction size="compact" onClick={onGetStarted}>Get started</TactileAction></div>
     </header>
 
     <main id="top">
@@ -62,7 +64,7 @@ export default function Landing({ onSignIn, onGetStarted }: LandingProps) {
           <div className="hero-kicker"><span className="kicker-mark">✳</span> CAREER GROWTH, WITH A PLAN</div>
           <h1>Your next role,<br /><em>within reach.</em></h1>
           <p className="hero-copy">Bring your real academic and project record. Pick a role you want. Get a grounded, week-by-week plan for closing the skills gap.</p>
-          <div className="hero-actions"><button className="pill-action dark large" onClick={onGetStarted}>Build my plan <span>↗</span></button><a className="pill-action outline large" href="#how-it-works">See how it works <span>↓</span></a></div>
+          <div className="hero-actions"><TactileAction className="tactile-large" onClick={onGetStarted}>Build my plan</TactileAction><TactileAction className="tactile-large" onClick={() => document.getElementById('how-it-works')?.scrollIntoView({ behavior: 'smooth' })}>See how it works</TactileAction></div>
           <div className="hero-proof"><span className="proof-icon">✓</span><span>Source-linked evidence</span><i /><span>Hours that add up</span><i /><span>Built around your goal</span></div>
         </div>
         <div className="hero-preview" aria-label="Sample PlacementGap skills report">
@@ -109,7 +111,7 @@ export default function Landing({ onSignIn, onGetStarted }: LandingProps) {
         </div>
         <div className="evidence-copy"><span className="eyebrow light-eyebrow">THOUGHTFUL BY DESIGN</span><h2>See why a skill<br />is a <em>gap.</em></h2><p>Each finding is grounded in the job description and your own record. See the excerpt, the interpretation, and the level the role expects before you decide what to work on.</p>
           <ul className="check-list"><li><span>✓</span> Evidence spans you can inspect</li><li><span>✓</span> Coursework and projects weighed differently</li><li><span>✓</span> Unmatched requirements stay visible</li></ul>
-          <button className="pill-action dark" onClick={onGetStarted}>Explore your fit <span>↗</span></button>
+          <TactileAction onClick={onGetStarted}>Explore your fit</TactileAction>
         </div>
       </section>
 
@@ -129,13 +131,13 @@ export default function Landing({ onSignIn, onGetStarted }: LandingProps) {
       </section>
 
       <section className="section-block faq-section" id="faq">
-        <div className="faq-intro"><span className="eyebrow light-eyebrow">GOOD QUESTIONS</span><h2>Before you<br /><em>get started.</em></h2><p>A few details about how PlacementGap turns your record into a plan.</p><button className="pill-action outline" onClick={onGetStarted}>Try PlacementGap <span>↗</span></button></div>
+        <div className="faq-intro"><span className="eyebrow light-eyebrow">GOOD QUESTIONS</span><h2>Before you<br /><em>get started.</em></h2><p>A few details about how PlacementGap turns your record into a plan.</p><TactileAction onClick={onGetStarted}>Try PlacementGap</TactileAction></div>
         <div className="faq-list">{faqs.map(([question, answer], index) => <details className="faq-item" key={question} open={index === 0}><summary><span>{question}</span><i>+</i></summary><p>{answer}</p></details>)}</div>
       </section>
 
-      <section className="closing-section"><div className="closing-stamp">PG <i>✳</i></div><span className="eyebrow">YOUR NEXT CHAPTER STARTS HERE</span><h2>Choose the role.<br /><em>We’ll map the steps.</em></h2><button className="pill-action dark large" onClick={onGetStarted}>Build my learning plan <span>↗</span></button><small>Start with your record. Leave with a plan you can trust.</small></section>
+      <section className="closing-section"><div className="closing-stamp">PG <i>✳</i></div><span className="eyebrow">YOUR NEXT CHAPTER STARTS HERE</span><h2>Choose the role.<br /><em>We’ll map the steps.</em></h2><TactileAction className="tactile-large" onClick={onGetStarted}>Build my learning plan</TactileAction><small>Start with your record. Leave with a plan you can trust.</small></section>
     </main>
 
-    <footer className="public-footer"><div className="footer-top"><div className="footer-brand"><a className="brand-link" href="#top"><Brand /></a><p>Evidence-grounded career planning<br />for the role you want next.</p></div><div className="footer-nav"><span>EXPLORE</span><a href="#how-it-works">How it works</a><a href="#inside">What you get</a><a href="#faq">FAQ</a></div><div className="footer-nav"><span>YOUR WORKSPACE</span><button onClick={onSignIn}>Sign in</button><button onClick={onGetStarted}>Create an account</button><a href="#top">Back to top ↑</a></div><div className="footer-signoff">Make your next move<br /><em>with a little more clarity.</em></div></div><div className="footer-bottom"><Brand compact /><span>© 2026 PLACEMENTGAP</span><span>YOUR RECORD IS YOURS.</span></div></footer>
+    <footer className="public-footer"><div className="footer-top"><div className="footer-brand"><a className="brand-link" href="#top"><Brand /></a><p>Evidence-grounded career planning<br />for the role you want next.</p></div><div className="footer-nav"><span>EXPLORE</span><a href="#how-it-works">How it works</a><a href="#inside">What you get</a><a href="#faq">FAQ</a></div><div className="footer-nav"><span>YOUR WORKSPACE</span><button onClick={onSignIn}>Open workspace</button><button onClick={onGetStarted}>Create an account</button><a href="#top">Back to top ↑</a></div><div className="footer-signoff">Make your next move<br /><em>with a little more clarity.</em></div></div><div className="footer-bottom"><Brand compact /><span>© 2026 PLACEMENTGAP</span><span>YOUR RECORD IS YOURS.</span></div></footer>
   </div>
 }

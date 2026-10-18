@@ -39,6 +39,8 @@ The first page is the public PlacementGap landing page. **Get started** opens ac
 
 Open [http://127.0.0.1:5173](http://127.0.0.1:5173) for the agent console, [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) for the API, and [http://127.0.0.1:16686](http://127.0.0.1:16686) for Jaeger. The UI accepts pasted text and PDF/DOCX uploads, streams node and tool events, pauses at approval, and downloads the final report.
 
+For a persistent hosted deployment on Render, follow [DEPLOY_RENDER.md](DEPLOY_RENDER.md). The Blueprint builds and serves the UI/API on one HTTPS origin and provisions Postgres plus persistent storage.
+
 In PowerShell, if GNU Make is not installed, use the same container commands directly:
 
 ```powershell

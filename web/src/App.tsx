@@ -59,6 +59,7 @@ export default function App() {
   const navigate = (destination: Page, pathname: string, replace = false) => {
     if (replace) window.history.replaceState({}, '', pathname)
     else window.history.pushState({}, '', pathname)
+    window.scrollTo(0, 0)
     setPage(destination)
   }
   const goHome = () => navigate('landing', '/')
@@ -139,7 +140,7 @@ export default function App() {
   }
 
   useEffect(() => {
-    const onPopState = () => { const destination = pageFromLocation(); setPage(destination); if (window.location.pathname === '/signup') setAuthMode('signup'); else if (window.location.pathname === '/signin') setAuthMode('signin') }
+    const onPopState = () => { window.scrollTo(0, 0); const destination = pageFromLocation(); setPage(destination); if (window.location.pathname === '/signup') setAuthMode('signup'); else if (window.location.pathname === '/signin') setAuthMode('signin') }
     window.addEventListener('popstate', onPopState)
     return () => window.removeEventListener('popstate', onPopState)
   }, [])
